@@ -14,7 +14,7 @@ const CouponAdmin = () => {
                     </p>
                 </header>
                 <div className="projects">
-                    <img src={Project1} className="image fit" />
+                    <img src={Project1} className="image fit" alt=''/>
                     <ps.TextLeft>
                         <ps.ContentsTitle>쿠폰의 수 많은 정책 정보 관리 및 시스템 유지보수</ps.ContentsTitle>
                         <ul>

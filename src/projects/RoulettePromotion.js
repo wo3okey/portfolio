@@ -31,7 +31,7 @@ const RoulettePromotion = () => {
                         <img className="image fit" src={Roulette4} title="티몬데이룰렛4" alt="" />
                     </div>
 
-                    <img className="image fit" src={Project4} width="100%" />
+                    <img className="image fit" src={Project4} width="100%" alt=''/>
                     <ps.TextLeft>
                         <ps.ContentsTitle>유연한 설정이 가능한 프로모션 설계구조</ps.ContentsTitle>
                         <ul>

@@ -18,7 +18,7 @@ const PomPom = () => {
                 </header>
 
                 <div className="projects">
-                    <img src={Project3} className="image fit" />
+                    <img src={Project3} className="image fit" alt=''/>
                     <ps.TextLeft>
                         <ps.ContentsTitle>빠르고 안전한 시스템 개발</ps.ContentsTitle>
                         <ul>

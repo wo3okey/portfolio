@@ -14,7 +14,7 @@ const HfRenewal = () => {
                     </p>
                 </header>
                 <div className="projects">
-                    <img src={Project5} className="image fit" />
+                    <img src={Project5} className="image fit" alt=''/>
                     <ps.TextLeft>
                         <ps.ContentsTitle>공사(HF)와 주택보증 관련 업무 개발 수행</ps.ContentsTitle>
                         <ul>

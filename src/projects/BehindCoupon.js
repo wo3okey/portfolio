@@ -15,7 +15,7 @@ const BehindCoupon = () => {
                     </p>
                 </header>
                 <div className="projects">
-                    <img src={Project2} className="image fit" />
+                    <img src={Project2} className="image fit" alt=''/>
                     <ps.TextLeft>
                         <ps.ContentsTitle>대용량 개인화 데이터 처리 및 비하인드 쿠폰 발급 시스템 개발</ps.ContentsTitle>
                         <ul>
