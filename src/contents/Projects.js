@@ -8,13 +8,13 @@ import PomPom from "../projects/PomPom"
 const Projects = () => {
     return (
         <div>
-            <Title>경력 프로젝트</Title>
+            <Title>경력 얘기해볼게요</Title>
             <CouponAdmin></CouponAdmin>
             <BehindCoupon></BehindCoupon>
             <RoulettePromotion></RoulettePromotion>
             <HfRenewal></HfRenewal>
 
-            <Title>개인 프로젝트</Title>
+            <Title>그냥 만들어봤어요</Title>
             <PomPom></PomPom>
         </div>
     )

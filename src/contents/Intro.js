@@ -18,7 +18,7 @@ const Intro = () => {
               className = "typing"
               style={{marginRight:'15px', fontSize:'20px'}}
               strings={["Attractive and Fascinating Developer Wookey Portfolio🧑‍💻"]}
-              typeSpeed={70}
+              typeSpeed={50}
               />
           </header>
         </div>

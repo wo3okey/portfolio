@@ -6,7 +6,7 @@ const Me = () => {
             <section className="major">
                 <h2><b>Wookey</b></h2>
                 <blockquote>
-                    <b>개발은 개발로 하지말자 !<br/>내 손으로 하자 !</b>
+                    <b>직관적이고 유연한 설계로 깔끔하고 아름다운 코드를 짜고싶은 개발자 입니다.</b><br></br>
                 </blockquote>
             </section>
             <Sperator></Sperator>

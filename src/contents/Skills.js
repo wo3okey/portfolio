@@ -2,9 +2,22 @@ import styled from "styled-components"
 import { Sperator } from '../styles/StyleCommon'
 
 import Html5 from "../images/tech_icon/html5.png"
+import ElasticSearch from "../images/tech_icon/elasticsearch.png"
+import Kubernetes from "../images/tech_icon/kubernetes.png"
+import Dynamodb from "../images/tech_icon/dynamodb.png"
+import Kinesis from "../images/tech_icon/kinesis.png"
+import Datadog from "../images/tech_icon/datadog.png"
+import Airflow from "../images/tech_icon/airflow.png"
+import SpringBoot from "../images/tech_icon/springboot.png"
+import Swagger from "../images/tech_icon/swagger.png"
+import Logstash from "../images/tech_icon/logstash.png"
+import Redash from "../images/tech_icon/redash.png"
+import JPA from "../images/tech_icon/jpa.png"
 import Bootstrap from "../images/tech_icon/bootstrap.png"
+import Intelij from "../images/tech_icon/intellij.png"
 import Js from "../images/tech_icon/js.png"
 import Github from "../images/tech_icon/github.png"
+import Git from "../images/tech_icon/git.png"
 import Jquery from "../images/tech_icon/jquery.png"
 import Java from "../images/tech_icon/java.png"
 import Css from "../images/tech_icon/css.png"
@@ -44,47 +57,60 @@ const Skills = () => {
             <section>
                 <h2><b>이만큼 노력하고 있어요</b></h2>
                 <Title>꽤 친한사이</Title>
-                <TechImage src={Html5} />
-                <TechImage src={Bootstrap} />
-                <TechImage src={Js} />
-                <TechImage src={Github} />
-                <TechImage src={Jquery} />
+                <TechImage src={SpringBoot} />
+                <TechImage src={Kotlin} />
                 <TechImage src={Java} />
-                <TechImage src={Css} />
-                <TechImage src={Angular} />
                 <TechImage src={Mysql} />
-                <TechImage src={Jsp} />
+                <TechImage src={JPA} />
                 <TechImage src={Redis} />
-                <TechImage src={Spring} />
-                <TechImage src={Mybatis} />
-                <TechImage src={Maven} />
-                <TechImage src={Oracle} />
+                <TechImage src={Git} />
                 <br></br>
 
                 <Title>점점 친해지고 있는 사이</Title>
-                <TechImage src={Nodejs} />
-                <TechImage src={Kotlin} />
-                <TechImage src={Couchbase} />
-                <TechImage src={RabbitMq} />
-                <TechImage src={Memcached} />
-                <TechImage src={Hadoop} />
-                <TechImage src={Nginx} />
-                <TechImage src={Linux} />
-                <TechImage src={Tomcat} />
+                <TechImage src={ElasticSearch} />
+                <TechImage src={Aws} />
+                <TechImage src={Kinesis} />
+                <TechImage src={Dynamodb} />
+                <TechImage src={Docker} />
+                <TechImage src={Airflow} />
+                <TechImage src={Redash} />
                 <br></br>
 
                 <Title>친해지고 싶은 사이</Title>
+                <TechImage src={Kubernetes} />
+                <TechImage src={Nodejs} />
                 <TechImage src={Reacts} />
-                <TechImage src={Aws} />
-                <TechImage src={Docker} />
                 <TechImage src={SpringWebflux} />
+                <TechImage src={Kibana} />
+                <TechImage src={Logstash} />
+                <TechImage src={Nginx} />
                 <br></br>
 
                 <Title>도움을 많이 받는 사이</Title>
+                <TechImage src={Intelij} />
+                <TechImage src={Datadog} />
+                <TechImage src={Swagger} />
                 <TechImage src={Jira} />
                 <TechImage src={Bitbucket} />
-                <TechImage src={Kibana} />
                 <TechImage src={Jenkins} />
+                <TechImage src={Linux} />
+                <TechImage src={Github} />
+
+                <Title>꽤 친했던 사이</Title>
+                <TechImage src={RabbitMq} />
+                <TechImage src={Couchbase} />
+                <TechImage src={Memcached} />
+                <TechImage src={Hadoop} />
+                <TechImage src={Oracle} />
+                <TechImage src={Mybatis} />
+                <TechImage src={Maven} />
+                <TechImage src={Html5} />
+                <TechImage src={Js} />
+                <TechImage src={Css} />
+                <TechImage src={Bootstrap} />
+                <TechImage src={Jquery} />
+                <TechImage src={Angular} />
+                <TechImage src={Jsp} />
                 <TechImage src={Scouter} />
             </section>
             <Sperator></Sperator>
