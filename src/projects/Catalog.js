@@ -27,7 +27,9 @@ const Catalog = () => {
                             <StyleBadgeGreen>redis</StyleBadgeGreen>
                             <StyleBadgeGreen>jpa</StyleBadgeGreen>
                             <StyleBadgeGreen>elasticsearch</StyleBadgeGreen>
-                            <StyleBadgeGreen>reactjs</StyleBadgeGreen>
+                            <StyleBadgeGreen>AWS</StyleBadgeGreen>
+                            <StyleBadgeGreen>kinesis</StyleBadgeGreen>
+                            <StyleBadgeGreen>parameter store</StyleBadgeGreen>
                         </blockquote>
                     </StyleContentsLeft>
                     <StyleContentsRight>

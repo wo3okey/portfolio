@@ -1,6 +1,7 @@
 import { StyleCompany, StyleProjectDivision } from "../styles/StyleProjects"
 import { StyleSperator } from '../styles/StyleCommon'
 
+import VerticalAdmin from "../projects/VerticalAdmin"
 import Catalog from "../projects/Catalog"
 import Inspection from "../projects/Inspection"
 import CouponAdmin from "../projects/CouponAdmin"
@@ -17,6 +18,7 @@ const Projects = () => {
             <StyleCompany>2021.08 - ing, 번개장터</StyleCompany>
             <Inspection></Inspection>
             <Catalog></Catalog>
+            <VerticalAdmin></VerticalAdmin>
             <StyleSperator></StyleSperator>
 
             <StyleCompany>2020.03 - 2021.07, IBKsystem</StyleCompany>

@@ -12,33 +12,34 @@ import { StyleSperator } from '../styles/StyleCommon'
 
 import Project2 from "../images/project/project2.JPG"
 
-const Inspection = () => {
+const VerticalAdmin = () => {
     return (
         <div>
             <StyleProject>
                 <StyleContentsArea>
                     <StyleContentsLeft>
                         <blockquote>
-                            <StyleProjectTitle>2021.12 - 2022.06</StyleProjectTitle>
-                            <StyleProjectTitle>검수대행 시스템</StyleProjectTitle>
+                            <StyleProjectTitle>2021.08 - 2022.08</StyleProjectTitle>
+                            <StyleProjectTitle>버티컬서비스 어드민</StyleProjectTitle>
                             <StyleBadgeGreen>spring boot</StyleBadgeGreen>
                             <StyleBadgeGreen>kotlin</StyleBadgeGreen>
                             <StyleBadgeGreen>mysql</StyleBadgeGreen>
                             <StyleBadgeGreen>redis</StyleBadgeGreen>
                             <StyleBadgeGreen>jpa</StyleBadgeGreen>
+                            <StyleBadgeGreen>elasticsearch</StyleBadgeGreen>
                             <StyleBadgeGreen>AWS</StyleBadgeGreen>
-                            <StyleBadgeGreen>kinesis</StyleBadgeGreen>
                             <StyleBadgeGreen>parameter store</StyleBadgeGreen>
+                            <StyleBadgeGreen>reactjs</StyleBadgeGreen>
                         </blockquote>
                     </StyleContentsLeft>
                     <StyleContentsRight>
-                        <StyleContentsTitle>검수대행 시스템 제목1</StyleContentsTitle>
+                        <StyleContentsTitle>어드민 시스템 제목1</StyleContentsTitle>
                         <StyleContents>
                             <StyleContent>내용1-1</StyleContent>
                             <StyleContent>내용1-2</StyleContent>
                             <StyleContent>내용1-3</StyleContent>
                         </StyleContents>
-                        <StyleContentsTitle>검수대행 시스템 제목2</StyleContentsTitle>
+                        <StyleContentsTitle>어드민 시스템 제목2</StyleContentsTitle>
                         <StyleContents>
                             <StyleContent>내용2-1</StyleContent>
                             <StyleContent>내용2-2</StyleContent>
@@ -51,4 +52,4 @@ const Inspection = () => {
     )
 }
 
-export default Inspection
+export default VerticalAdmin
