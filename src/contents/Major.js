@@ -1,19 +1,10 @@
-import { Sperator } from '../styles/StyleCommon'
+import { StyleSperator } from '../styles/StyleCommon'
 
 const Major = () => {
   return (
     <div>
       <section>
         <h2><b>열심히 달리고 있어요</b></h2>
-        <blockquote className="career">
-          <table className="career">
-            <tr>
-              <td><b>2021.06.02</b></td>
-              <td>한국산업인력공단</td>
-              <td>정보처리기사</td>
-            </tr>
-          </table>
-        </blockquote>
         <blockquote className="career">
           <table className="career">
           <tr>
@@ -43,8 +34,17 @@ const Major = () => {
             </tr>
           </table>
         </blockquote>
+        <blockquote className="career">
+          <table className="career">
+            <tr>
+              <td><b>2021.06.02</b></td>
+              <td>한국산업인력공단</td>
+              <td>정보처리기사</td>
+            </tr>
+          </table>
+        </blockquote>
       </section>
-      <Sperator></Sperator>
+      <StyleSperator></StyleSperator>
     </div>
   );
 }

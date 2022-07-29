@@ -1,48 +1,48 @@
-import * as ps from "../styles/StyleProjects"
-import { Sperator } from '../styles/StyleCommon'
+import { StyleProject } from "../styles/StyleProjects"
+import { StyleContentsArea } from "../styles/StyleProjects"
+import { StyleContentsLeft } from "../styles/StyleProjects"
+import { StyleContentsRight } from "../styles/StyleProjects"
+import { StyleContentsTitle } from "../styles/StyleProjects"
+import { StyleContents } from "../styles/StyleProjects"
+import { StyleContent } from "../styles/StyleProjects"
+
+import { StyleBadgeGreen } from '../styles/StyleCommon'
+
 import Project5 from "../images/project/project5.png"
 
 const HfRenewal = () => {
     return (
         <div>
-            <section className="major">
-                <header className="major">
-                    <h3>한국주택금융공사(HF) 차세대 시스템 개발</h3>
-                    <p>
-                        <ps.SubTitle>580억 규모의 한국주택금융공사(HF) 차세대 시스템 개발에 참여했습니다.</ps.SubTitle>
-                        <ps.SubTitle>주택신용보증팀에서 개인보증 개발 업무를 수행했습니다.</ps.SubTitle>
-                    </p>
-                </header>
-                <div className="projects">
-                    <img src={Project5} className="image fit" alt=''/>
-                    <ps.TextLeft>
-                        <ps.ContentsTitle>공사(HF)와 주택보증 관련 업무 개발 수행</ps.ContentsTitle>
-                        <ul>
-                            <li className="project_contant">
-                                피보증인변경, 보증료수납관리, 전세반환보증 등 개인과 관련된 업무뿐만 아니라 공사와 사업자간의 보증업무 등 크고 작은 보증 시스템을 개발
-                            </li>
-                            <li className="project_contant">
-                                MMS(Multi Manager System)와 MAC(Multi Channel Architecture)를 통한 대내 시스템 연계
-                            </li>
-                        </ul>
-
-                        <ps.ContentsTitle>대외 금융시스템 연계 구성을 위한 전문 시스템 개발</ps.ContentsTitle>
-                        <ul>
-                            <li className="project_contant">
-                                공사(HF)로부터 은행(BANK), 주택도시기금(HUG), 중앙평가원(JAA), 한국감정원(KAB) 등 FEP 대외기관의 시스템 인터페이스 전문 송수신 시스템
-                                개발
-                            </li>
-                            <li className="project_contant">
-                                FEP(Front-End Processor) I/F(interface)를 통해 각 대외기관과의 시스템 전문 통신
-                            </li>
-                            <li className="project_contant">
-                                템플릿 메소드 패턴을 적극적으로 활용하여 송수신 시스템을 추상화하고 각각의 전문 시스템을 구현화 함으로써 일관성 있고 유현한 구조로 개발
-                            </li>
-                        </ul>
-                    </ps.TextLeft>
-                </div>
-            </section>
-            <Sperator></Sperator>
+            <StyleProject>
+                <StyleContentsArea>
+                    <StyleContentsLeft>
+                        <blockquote>
+                            2020.04 - 2021.07<br></br>
+                            한국주택금융공사 차세대 시스템<br></br>
+                            <StyleBadgeGreen>java</StyleBadgeGreen>
+                            <StyleBadgeGreen>oracle</StyleBadgeGreen>
+                            <StyleBadgeGreen>web square</StyleBadgeGreen>
+                            <StyleBadgeGreen>pro object</StyleBadgeGreen>
+                            <StyleBadgeGreen>FEP</StyleBadgeGreen>
+                        </blockquote>
+                    </StyleContentsLeft>
+                    <StyleContentsRight>
+                        <StyleContentsTitle>580억 규모의 한국주택금융공사(HF) 차세대 시스템 개발</StyleContentsTitle>
+                        <StyleContents>
+                            <StyleContent>주택신용보증팀(주신보)의 개인보증 업무 담당</StyleContent>
+                            <StyleContent>전세반환보증, 보증인변경, 보증료수납관리 등 개인 관련 보증 업무 시스템 개발</StyleContent>
+                            <StyleContent>신용평가 룰 개발 및 법 개정사항 반영</StyleContent>
+                        </StyleContents>
+                        <StyleContentsTitle>대외 금융시스템 연계 구성을 위한 전문 시스템 개발</StyleContentsTitle>
+                        <StyleContents>
+                            <StyleContent>공사(HF)로부터 은행(BANK), 주택도시기금(HUG), 중앙평가원(JAA), 한국감정원(KAB) 등 FEP 대외기관의 시스템 인터페이스 전문 송수신 시스템 개발</StyleContent>
+                            <StyleContent>MMS(Multi Manager System)와 MAC(Multi Channel Architecture)를 통한 대내 시스템 연계</StyleContent>
+                            <StyleContent>FEP(Front-End Processor) I/F(interface)를 통해 각 대외기관과의 시스템 전문 통신</StyleContent>
+                            <StyleContent>전문 송수신 구조를 추상화하고 각각의 전문 시스템을 구현화 함으로써 일관성 있고 유연한 구조로 개발</StyleContent>
+                        </StyleContents>
+                    </StyleContentsRight>
+                </StyleContentsArea>
+            </StyleProject>
         </div>
     )
 }

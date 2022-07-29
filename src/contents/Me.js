@@ -1,4 +1,4 @@
-import { Sperator } from '../styles/StyleCommon'
+import { StyleSperator } from '../styles/StyleCommon'
 
 const Me = () => {
     return (
@@ -9,7 +9,7 @@ const Me = () => {
                     <b>직관적이고 유연한 설계로 깔끔하고 아름다운 코드를 짜고싶은 개발자 입니다.</b><br></br>
                 </blockquote>
             </section>
-            <Sperator></Sperator>
+            <StyleSperator></StyleSperator>
         </div>
     )
 }

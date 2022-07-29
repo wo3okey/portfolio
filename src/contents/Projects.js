@@ -1,4 +1,8 @@
-import { Title } from "../styles/StyleProjects"
+import { StyleCompany, StyleProjectDivision } from "../styles/StyleProjects"
+import { StyleSperator } from '../styles/StyleCommon'
+
+import Catalog from "../projects/Catalog"
+import Inspection from "../projects/Inspection"
 import CouponAdmin from "../projects/CouponAdmin"
 import BehindCoupon from "../projects/BehindCoupon"
 import RoulettePromotion from "../projects/RoulettePromotion"
@@ -8,13 +12,24 @@ import PomPom from "../projects/PomPom"
 const Projects = () => {
     return (
         <div>
-            <Title>경력 얘기해볼게요</Title>
-            <CouponAdmin></CouponAdmin>
-            <BehindCoupon></BehindCoupon>
-            <RoulettePromotion></RoulettePromotion>
-            <HfRenewal></HfRenewal>
+            <StyleProjectDivision>경력 얘기해볼게요</StyleProjectDivision>
 
-            <Title>그냥 만들어봤어요</Title>
+            <StyleCompany>2021.08 - ing, 번개장터</StyleCompany>
+            <Inspection></Inspection>
+            <Catalog></Catalog>
+            <StyleSperator></StyleSperator>
+
+            <StyleCompany>2020.03 - 2021.07, IBKsystem</StyleCompany>
+            <HfRenewal></HfRenewal>
+            <StyleSperator></StyleSperator>
+
+            <StyleCompany>2018.01 - 2020.02, TMON</StyleCompany>
+            <RoulettePromotion></RoulettePromotion>
+            <BehindCoupon></BehindCoupon>
+            <CouponAdmin></CouponAdmin>
+            <StyleSperator></StyleSperator>
+
+            <StyleProjectDivision>틈틈히 만들어봤어요</StyleProjectDivision>
             <PomPom></PomPom>
         </div>
     )

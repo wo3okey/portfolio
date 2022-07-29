@@ -3,16 +3,11 @@ const Contact = () => {
         <div>
             <footer id="footer">
                 <header>
-                    <h2>Thank you for Reading!</h2>
-                    <h4>Contact me</h4>
+                    <h2>읽어주셔서 감사합니다.</h2>
+                    <h5>contact. <span style={{color:"pink"}}>anbriaao@naver.com</span></h5>
                 </header>
                 <ul class="icons">
-                    <li><a target="_blank" href="https://www.facebook.com/profile.php?id=100003542100389"
-                        class="icon brands alt fa-facebook-f"><span class="label">Facebook</span></a></li>
-                    <li><a target="_blank" href="https://www.instagram.com/ahn_h_w/"
-                        class="icon brands alt fa-instagram"><span class="label">Instagram</span></a></li>
-                    <li><a target="_blank" href="https://github.com/wo3okey" class="icon brands alt fa-github"><span
-                        class="label">GitHub</span></a></li>
+                    
                 </ul>
 
                 <ul class="copyright">

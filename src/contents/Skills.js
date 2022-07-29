@@ -1,5 +1,5 @@
 import styled from "styled-components"
-import { Sperator } from '../styles/StyleCommon'
+import { StyleSperator } from '../styles/StyleCommon'
 
 import Html5 from "../images/tech_icon/html5.png"
 import ElasticSearch from "../images/tech_icon/elasticsearch.png"
@@ -57,14 +57,14 @@ const Skills = () => {
             <section>
                 <h2><b>이만큼 노력하고 있어요</b></h2>
                 <Title>꽤 친한사이</Title>
+                <TechImage src={Spring} />
                 <TechImage src={SpringBoot} />
+                <TechImage src={JPA} />
                 <TechImage src={Kotlin} />
                 <TechImage src={Java} />
                 <TechImage src={Mysql} />
-                <TechImage src={JPA} />
                 <TechImage src={Redis} />
                 <TechImage src={Git} />
-                <br></br>
 
                 <Title>점점 친해지고 있는 사이</Title>
                 <TechImage src={ElasticSearch} />
@@ -74,7 +74,6 @@ const Skills = () => {
                 <TechImage src={Docker} />
                 <TechImage src={Airflow} />
                 <TechImage src={Redash} />
-                <br></br>
 
                 <Title>친해지고 싶은 사이</Title>
                 <TechImage src={Kubernetes} />
@@ -84,7 +83,6 @@ const Skills = () => {
                 <TechImage src={Kibana} />
                 <TechImage src={Logstash} />
                 <TechImage src={Nginx} />
-                <br></br>
 
                 <Title>도움을 많이 받는 사이</Title>
                 <TechImage src={Intelij} />
@@ -97,6 +95,9 @@ const Skills = () => {
                 <TechImage src={Github} />
 
                 <Title>꽤 친했던 사이</Title>
+                <TechImage src={Html5} />
+                <TechImage src={Js} />
+                <TechImage src={Css} />
                 <TechImage src={RabbitMq} />
                 <TechImage src={Couchbase} />
                 <TechImage src={Memcached} />
@@ -104,16 +105,13 @@ const Skills = () => {
                 <TechImage src={Oracle} />
                 <TechImage src={Mybatis} />
                 <TechImage src={Maven} />
-                <TechImage src={Html5} />
-                <TechImage src={Js} />
-                <TechImage src={Css} />
                 <TechImage src={Bootstrap} />
                 <TechImage src={Jquery} />
                 <TechImage src={Angular} />
                 <TechImage src={Jsp} />
                 <TechImage src={Scouter} />
             </section>
-            <Sperator></Sperator>
+            <StyleSperator></StyleSperator>
         </div>
     )
 }
