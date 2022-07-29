@@ -5,6 +5,9 @@ import { StyleContentsRight } from "../styles/StyleProjects"
 import { StyleContentsTitle } from "../styles/StyleProjects"
 import { StyleContents } from "../styles/StyleProjects"
 import { StyleContent } from "../styles/StyleProjects"
+import { StyleImages } from "../styles/StyleProjects"
+import { StyleProjectImage } from "../styles/StyleProjects"
+import { StyleImage } from "../styles/StyleProjects"
 
 import { StyleBadgeGreen } from '../styles/StyleCommon'
 
@@ -40,6 +43,9 @@ const HfRenewal = () => {
                             <StyleContent>FEP(Front-End Processor) I/F(interface)를 통해 각 대외기관과의 시스템 전문 통신</StyleContent>
                             <StyleContent>전문 송수신 구조를 추상화하고 각각의 전문 시스템을 구현화 함으로써 일관성 있고 유연한 구조로 개발</StyleContent>
                         </StyleContents>
+                        <StyleImages>
+                            <StyleProjectImage src={Project5} title="티몬데이룰렛1" alt="" />
+                        </StyleImages>
                     </StyleContentsRight>
                 </StyleContentsArea>
             </StyleProject>

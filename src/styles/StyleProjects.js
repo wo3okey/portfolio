@@ -53,3 +53,9 @@ export const StyleImage = styled.img`
     margin: 2px;
     border-radius: 5px;
 `;
+
+export const StyleProjectImage = styled.img`
+    width: 600px;
+    margin: 2px;
+    border-radius: 5px;
+`;

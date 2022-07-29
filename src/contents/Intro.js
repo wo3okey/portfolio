@@ -22,7 +22,6 @@ const Intro = () => {
               />
           </header>
         </div>
-        <a href="#main" className="goto-next scrolly" style={{marginBottom:"20px"}}>Next</a>
       </section>
     </div>
   );
