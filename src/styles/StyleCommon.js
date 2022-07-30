@@ -5,6 +5,11 @@ export const StyleSperator = styled.hr`
     margin-bottom: 100px;
 `;
 
+export const StyleDivision = styled.h2`
+    margin-bottom: 50px;
+    font-weight: normal;
+`;
+
 export const StyleBadgeGreen = styled.span`
     display: inline-block;
     background-color: green;
@@ -14,4 +19,5 @@ export const StyleBadgeGreen = styled.span`
     border-radius: 5px;
     margin: 2px;
     font-size:12px;
+    font-weight: normal;
 `;

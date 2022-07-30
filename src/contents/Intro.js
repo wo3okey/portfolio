@@ -14,12 +14,12 @@ const Intro = () => {
         <div className="content">
           <header>
             <h2><code>Hello Wookey World;</code></h2>
-              <Typed
+              {/* <Typed
               className = "typing"
               style={{marginRight:'15px', fontSize:'20px'}}
               strings={["Attractive and Fascinating Developer Wookey Portfolio🧑‍💻"]}
               typeSpeed={50}
-              />
+              /> */}
           </header>
         </div>
       </section>

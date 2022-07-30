@@ -1,4 +1,5 @@
 import { StyleProject } from "../styles/StyleProjects"
+import { StyleProjectTitle } from "../styles/StyleProjects"
 import { StyleContentsArea } from "../styles/StyleProjects"
 import { StyleContentsLeft } from "../styles/StyleProjects"
 import { StyleContentsRight } from "../styles/StyleProjects"
@@ -20,8 +21,8 @@ const HfRenewal = () => {
                 <StyleContentsArea>
                     <StyleContentsLeft>
                         <blockquote>
-                            2020.04 - 2021.07<br></br>
-                            한국주택금융공사 차세대 시스템<br></br>
+                        <StyleProjectTitle>2020.04 - 2021.07</StyleProjectTitle>
+                        <StyleProjectTitle>한국주택금융공사 차세대 시스템</StyleProjectTitle>
                             <StyleBadgeGreen>java</StyleBadgeGreen>
                             <StyleBadgeGreen>oracle</StyleBadgeGreen>
                             <StyleBadgeGreen>web square</StyleBadgeGreen>

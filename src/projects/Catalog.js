@@ -7,6 +7,15 @@ import { StyleContentsTitle } from "../styles/StyleProjects"
 import { StyleContents } from "../styles/StyleProjects"
 import { StyleContent } from "../styles/StyleProjects"
 
+import { StyleImages } from "../styles/StyleProjects"
+import { StyleImage } from "../styles/StyleProjects"
+
+import Catalog1 from "../images/project/catalog1.png"
+import Catalog2 from "../images/project/catalog2.png"
+import Catalog3 from "../images/project/catalog3.png"
+import Catalog4 from "../images/project/catalog4.png"
+
+
 import { StyleBadgeGreen } from '../styles/StyleCommon'
 import { StyleSperator } from '../styles/StyleCommon'
 
@@ -45,6 +54,15 @@ const Catalog = () => {
                             <StyleContent>내용2-2</StyleContent>
                             <StyleContent>내용2-3</StyleContent>
                         </StyleContents>
+                        <StyleImages>
+                        <StyleImage src={Catalog3} title="카탈로그3" alt="" />
+                            <StyleImage src={Catalog4} title="카탈로그4" alt="" />
+                            
+                            <StyleImage src={Catalog2} title="카탈로그2" alt="" />
+                            <StyleImage src={Catalog1} title="카탈로그1" alt="" />
+                            
+                            
+                        </StyleImages>
                     </StyleContentsRight>
                 </StyleContentsArea>
             </StyleProject>

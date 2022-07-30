@@ -1,10 +1,10 @@
-import { StyleSperator } from '../styles/StyleCommon'
+import { StyleSperator, StyleDivision } from '../styles/StyleCommon'
 
 const Major = () => {
   return (
     <div>
       <section>
-        <h2><b>열심히 달리고 있어요</b></h2>
+        <StyleDivision>열심히 달리고 있어요</StyleDivision>
         <blockquote className="career">
           <table className="career">
             <tr>

@@ -1,5 +1,5 @@
-import { StyleCompany, StyleProjectDivision } from "../styles/StyleProjects"
-import { StyleSperator } from '../styles/StyleCommon'
+import { StyleCompany } from "../styles/StyleProjects"
+import { StyleSperator, StyleDivision } from '../styles/StyleCommon'
 
 import VerticalAdmin from "../projects/VerticalAdmin"
 import Catalog from "../projects/Catalog"
@@ -13,7 +13,7 @@ import PomPom from "../projects/PomPom"
 const Projects = () => {
     return (
         <div>
-            <StyleProjectDivision>경력 얘기해볼게요</StyleProjectDivision>
+            <StyleDivision>경력 얘기해볼게요</StyleDivision>
 
             <StyleCompany>2021.08 - ing, 번개장터</StyleCompany>
             <Inspection></Inspection>
@@ -31,7 +31,7 @@ const Projects = () => {
             <CouponAdmin></CouponAdmin>
             <StyleSperator></StyleSperator>
 
-            <StyleProjectDivision>틈틈히 만들어봤어요</StyleProjectDivision>
+            <StyleDivision>틈틈히 만들어봤어요</StyleDivision>
             <PomPom></PomPom>
         </div>
     )

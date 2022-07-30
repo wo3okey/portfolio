@@ -1,16 +1,17 @@
 import styled from "styled-components"
 
-export const StyleProjectDivision = styled.h2`
-    margin-bottom: 50px;
+export const StyleCompany = styled.h3`
+font-weight: normal;
 `;
-
-export const StyleCompany = styled.h3``;
 
 export const StyleProject = styled.section`
     margin-bottom: 100px;
 `;
 
-export const StyleProjectTitle = styled.div``;
+export const StyleProjectTitle = styled.div`
+    font-weight: normal;
+    // font-size: 17px
+`;
 
 export const StyleSubTitle = styled.p`
     margin-top: 0px;
@@ -27,7 +28,9 @@ export const StyleContent = styled.li`
     padding-bottom: 10px;
 `;
 
-export const StyleContentsTitle = styled.h4``;
+export const StyleContentsTitle = styled.h4`
+    font-weight: normal;
+`;
 
 export const StyleContentsArea = styled.div`
     display: flex;
@@ -41,7 +44,7 @@ export const StyleContentsLeft = styled.div`
 
 export const StyleContentsRight = styled.div`
     flex-grow: 1;
-    margin-left: 10px;
+    margin-left: 15px;
 `;
 
 export const StyleImages = styled.div`

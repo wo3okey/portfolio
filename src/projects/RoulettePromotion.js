@@ -12,10 +12,10 @@ import { StyleImage } from "../styles/StyleProjects"
 import { StyleSperator } from '../styles/StyleCommon'
 import { StyleBadgeGreen } from '../styles/StyleCommon'
 
-import Roulette1 from "../images/project/roulette1.jpg"
-import Roulette2 from "../images/project/roulette2.jpg"
-import Roulette3 from "../images/project/roulette3.jpg"
-import Roulette4 from "../images/project/roulette4.jpg"
+import Roulette1 from "../images/project/roulette1.png"
+import Roulette2 from "../images/project/roulette2.png"
+import Roulette3 from "../images/project/roulette3.png"
+import Roulette4 from "../images/project/roulette4.png"
 import Project4 from "../images/project/project4.JPG"
 
 const RoulettePromotion = () => {

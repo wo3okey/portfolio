@@ -1,7 +1,9 @@
 import styled from "styled-components"
-import { StyleSperator } from '../styles/StyleCommon'
+import { StyleSperator, StyleDivision } from '../styles/StyleCommon'
 
 import Html5 from "../images/tech_icon/html5.png"
+import Rust from "../images/tech_icon/rust.png"
+import Typescript from "../images/tech_icon/typescript.png"
 import ElasticSearch from "../images/tech_icon/elasticsearch.png"
 import Kubernetes from "../images/tech_icon/kubernetes.png"
 import Dynamodb from "../images/tech_icon/dynamodb.png"
@@ -55,7 +57,7 @@ const Skills = () => {
     return (
         <div>
             <section>
-                <h2><b>이만큼 노력하고 있어요</b></h2>
+                <StyleDivision>이만큼 노력하고 있어요</StyleDivision>
                 <Title>꽤 친한사이</Title>
                 <TechImage src={Spring} />
                 <TechImage src={SpringBoot} />
@@ -67,6 +69,7 @@ const Skills = () => {
                 <TechImage src={Git} />
 
                 <Title>점점 친해지고 있는 사이</Title>
+                <TechImage src={Reacts} />
                 <TechImage src={ElasticSearch} />
                 <TechImage src={Aws} />
                 <TechImage src={Kinesis} />
@@ -74,11 +77,12 @@ const Skills = () => {
                 <TechImage src={Docker} />
                 <TechImage src={Airflow} />
                 <TechImage src={Redash} />
+                
 
                 <Title>친해지고 싶은 사이</Title>
+                <TechImage src={Typescript} />
+                <TechImage src={Rust} />
                 <TechImage src={Kubernetes} />
-                <TechImage src={Nodejs} />
-                <TechImage src={Reacts} />
                 <TechImage src={SpringWebflux} />
                 <TechImage src={Kibana} />
                 <TechImage src={Logstash} />
@@ -98,6 +102,7 @@ const Skills = () => {
                 <TechImage src={Html5} />
                 <TechImage src={Js} />
                 <TechImage src={Css} />
+                <TechImage src={Nodejs} />
                 <TechImage src={RabbitMq} />
                 <TechImage src={Couchbase} />
                 <TechImage src={Memcached} />
