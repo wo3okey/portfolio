@@ -42,17 +42,18 @@ const Catalog = () => {
                         </blockquote>
                     </StyleContentsLeft>
                     <StyleContentsRight>
-                        <StyleContentsTitle>카탈로그 시스템 제목1</StyleContentsTitle>
+                        <StyleContentsTitle>상품의 상위 개념 카탈로그 모델 도입</StyleContentsTitle>
                         <StyleContents>
-                            <StyleContent>내용1-1</StyleContent>
-                            <StyleContent>내용1-2</StyleContent>
-                            <StyleContent>내용1-3</StyleContent>
+                            <StyleContent>상품을 응집화 할 수 있는 카탈로그 모델을 만들고 기존의 상품 서비스에 연결 및 개발</StyleContent>
+                            <StyleContent>모델은 카테고리 및 브랜드 조합 단위 하위 개념에 속하며, 서비스 확장에 유연할 수 있도록 설계 및 개발</StyleContent>
+                            <StyleContent>모델의 하위 속성 및 각 속성별 옵션 구조 설계 및 개발</StyleContent>
+                            <StyleContent>발매가, 현재 시세 등 모델의 가격 변동을 확인할 수 있는 서비스 개발</StyleContent>
                         </StyleContents>
-                        <StyleContentsTitle>카탈로그 시스템 제목2</StyleContentsTitle>
+                        <StyleContentsTitle>모델 탐색기 검색 서비스 지원</StyleContentsTitle>
                         <StyleContents>
-                            <StyleContent>내용2-1</StyleContent>
-                            <StyleContent>내용2-2</StyleContent>
-                            <StyleContent>내용2-3</StyleContent>
+                            <StyleContent>elasticsearch를 활용하여 카탈로그 모델 alias, template 관리 및 데이터 indexing</StyleContent>
+                            <StyleContent>모델명 부분 검색, 모델고유번호(SKU) 검색, 키워드 검색 등 다양한 니즈의 검색 지원 및 개발</StyleContent>
+                            <StyleContent>pagination(size, from) 및 infinite scroll(sort, after)를 활용하여 페이징 시스템 개발</StyleContent>
                         </StyleContents>
                         <StyleImages>
                         <StyleImage src={Catalog3} title="카탈로그3" alt="" />

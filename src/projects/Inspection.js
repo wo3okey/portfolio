@@ -53,9 +53,9 @@ const Inspection = () => {
                         </StyleContents>
                         <StyleContentsTitle>전사 범위의 신규 서비스 런칭</StyleContentsTitle>
                         <StyleContents>
-                            <StyleContent>기존 번개장터 C2C 거래시스템에서 C2B2C로 지원하여 상품, 검색, 결제, 배송까지 전사 범위의 시스템 개발</StyleContent>
+                            <StyleContent>기존 번개장터 C2C 거래시스템에서 C2B2C로 확대하여 상품, 검색, 결제, 배송까지 전사 범위의 시스템 개발</StyleContent>
                             <StyleContent>aws kinesis로 검수정보 변경에 대한 상품 및 주문 서비스에 이벤트 발행 시스템 개발</StyleContent>
-                            <StyleContent>airflow 및 batch task를 통한 영업일 기준 미발송처리, 미응답처리 등의 스케줄 시스템 개발</StyleContent>
+                            <StyleContent>airflow 및 batch task를 통한 영업일 기준 미발송처리, 미응답처리, 인증거래현황 발송 등의 스케줄 시스템 개발</StyleContent>
                         </StyleContents>
                         <StyleImages>
                             <StyleImage src={Inspection2} title="검수대행2" alt="" />
