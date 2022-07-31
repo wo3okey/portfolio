@@ -1,13 +1,6 @@
-import { StyleProject } from "../styles/StyleProjects"
-import { StyleProjectTitle } from "../styles/StyleProjects"
-import { StyleContentsArea } from "../styles/StyleProjects"
-import { StyleContentsLeft } from "../styles/StyleProjects"
-import { StyleContentsRight } from "../styles/StyleProjects"
-import { StyleContentsTitle } from "../styles/StyleProjects"
-import { StyleContents } from "../styles/StyleProjects"
-import { StyleContent } from "../styles/StyleProjects"
-import { StyleImages } from "../styles/StyleProjects"
-import { StyleImage } from "../styles/StyleProjects"
+import theme from "../styles/Theme";
+
+import { StyleProject, StyleProjectTitle, StyleContentsArea, StyleContentsLeft, StyleContentsRight, StyleContentsTitle, StyleContents, StyleContent, StyleImages, StyleImage } from "../styles/StyleProjects"
 
 import Inspection1 from "../images/project/inspection1.png"
 import Inspection2 from "../images/project/inspection2.png"
@@ -15,15 +8,12 @@ import Inspection3 from "../images/project/inspection3.png"
 import Inspection4 from "../images/project/inspection4.png"
 
 import { StyleBadgeGreen } from '../styles/StyleCommon'
-import { StyleSperator } from '../styles/StyleCommon'
-
-import Project2 from "../images/project/project2.JPG"
 
 const Inspection = () => {
     return (
         <div>
             <StyleProject>
-                <StyleContentsArea>
+                <StyleContentsArea theme={theme}>
                     <StyleContentsLeft>
                         <blockquote>
                             <StyleProjectTitle>2021.12 - 2022.06</StyleProjectTitle>
@@ -34,7 +24,7 @@ const Inspection = () => {
                             <StyleBadgeGreen>redis</StyleBadgeGreen>
                             <StyleBadgeGreen>jpa</StyleBadgeGreen>
                             <StyleBadgeGreen>querydsl</StyleBadgeGreen>
-                            <StyleBadgeGreen>aws</StyleBadgeGreen>
+                            <StyleBadgeGreen>AWS</StyleBadgeGreen>
                             <StyleBadgeGreen>kinesis</StyleBadgeGreen>
                             <StyleBadgeGreen>parameter store</StyleBadgeGreen>
                             <StyleBadgeGreen>spring batch</StyleBadgeGreen>
@@ -58,10 +48,10 @@ const Inspection = () => {
                             <StyleContent>airflow 및 batch task를 통한 영업일 기준 미발송처리, 미응답처리, 인증거래현황 발송 등의 스케줄 시스템 개발</StyleContent>
                         </StyleContents>
                         <StyleImages>
-                            <StyleImage src={Inspection2} title="검수대행2" alt="" />
-                            <StyleImage src={Inspection4} title="검수대행4" alt="" />
-                            <StyleImage src={Inspection1} title="검수대행1" alt="" />
-                            <StyleImage src={Inspection3} title="검수대행3" alt="" />
+                            <StyleImage theme={theme} src={Inspection2} title="검수대행2" alt="" />
+                            <StyleImage theme={theme} src={Inspection4} title="검수대행4" alt="" />
+                            <StyleImage theme={theme} src={Inspection1} title="검수대행1" alt="" />
+                            <StyleImage theme={theme} src={Inspection3} title="검수대행3" alt="" />
                         </StyleImages>
                     </StyleContentsRight>
                 </StyleContentsArea>

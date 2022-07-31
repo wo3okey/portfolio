@@ -1,15 +1,6 @@
-import { StyleProject } from "../styles/StyleProjects"
-import { StyleProjectTitle } from "../styles/StyleProjects"
-import { StyleContentsArea } from "../styles/StyleProjects"
-import { StyleContentsLeft } from "../styles/StyleProjects"
-import { StyleContentsRight } from "../styles/StyleProjects"
-import { StyleContentsTitle } from "../styles/StyleProjects"
-import { StyleContents } from "../styles/StyleProjects"
-import { StyleContent } from "../styles/StyleProjects"
-import { StyleImages } from "../styles/StyleProjects"
-import { StyleImage } from "../styles/StyleProjects"
+import theme from "../styles/Theme";
 
-import { StyleSperator } from '../styles/StyleCommon'
+import { StyleProject, StyleProjectTitle, StyleContentsArea, StyleContentsLeft, StyleContentsRight, StyleContentsTitle, StyleContents, StyleContent, StyleProjectImage, StyleImages, StyleImage } from "../styles/StyleProjects"
 import { StyleBadgeGreen } from '../styles/StyleCommon'
 
 import Roulette1 from "../images/project/roulette1.png"
@@ -22,7 +13,7 @@ const RoulettePromotion = () => {
     return (
         <div>
             <StyleProject>
-                <StyleContentsArea>
+                <StyleContentsArea theme={theme}>
                     <StyleContentsLeft>
                         <blockquote>
                             <StyleProjectTitle>2019.06 - 2020.01</StyleProjectTitle>
@@ -54,10 +45,10 @@ const RoulettePromotion = () => {
                             <StyleContent>공격적인 다중요청 방어를 위해 스케줄 정보와 사용자 정보를 DB Unique 설정으로 비정상적인 데이터 요청건 방어</StyleContent>
                         </StyleContents>
                         <StyleImages>
-                            <StyleImage src={Roulette1} title="티몬데이룰렛1" alt="" />
-                            <StyleImage src={Roulette2} title="티몬데이룰렛2" alt="" />
-                            <StyleImage src={Roulette3} title="티몬데이룰렛3" alt="" />
-                            <StyleImage src={Roulette4} title="티몬데이룰렛4" alt="" />
+                            <StyleImage theme={theme} src={Roulette1} title="티몬데이룰렛1" alt="" />
+                            <StyleImage theme={theme} src={Roulette2} title="티몬데이룰렛2" alt="" />
+                            <StyleImage theme={theme} src={Roulette3} title="티몬데이룰렛3" alt="" />
+                            <StyleImage theme={theme} src={Roulette4} title="티몬데이룰렛4" alt="" />
                         </StyleImages>
                     </StyleContentsRight>
                 </StyleContentsArea>

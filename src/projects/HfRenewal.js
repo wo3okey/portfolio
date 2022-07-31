@@ -1,14 +1,6 @@
-import { StyleProject } from "../styles/StyleProjects"
-import { StyleProjectTitle } from "../styles/StyleProjects"
-import { StyleContentsArea } from "../styles/StyleProjects"
-import { StyleContentsLeft } from "../styles/StyleProjects"
-import { StyleContentsRight } from "../styles/StyleProjects"
-import { StyleContentsTitle } from "../styles/StyleProjects"
-import { StyleContents } from "../styles/StyleProjects"
-import { StyleContent } from "../styles/StyleProjects"
-import { StyleImages } from "../styles/StyleProjects"
-import { StyleProjectImage } from "../styles/StyleProjects"
-import { StyleImage } from "../styles/StyleProjects"
+import theme from "../styles/Theme";
+
+import { StyleProject, StyleProjectTitle, StyleContentsArea, StyleContentsLeft, StyleContentsRight, StyleContentsTitle, StyleContents, StyleContent, StyleProjectImage, StyleImages, StyleImage } from "../styles/StyleProjects"
 
 import { StyleBadgeGreen } from '../styles/StyleCommon'
 
@@ -18,7 +10,7 @@ const HfRenewal = () => {
     return (
         <div>
             <StyleProject>
-                <StyleContentsArea>
+                <StyleContentsArea theme={theme}>
                     <StyleContentsLeft>
                         <blockquote>
                         <StyleProjectTitle>2020.04 - 2021.07</StyleProjectTitle>
@@ -45,7 +37,7 @@ const HfRenewal = () => {
                             <StyleContent>전문 송수신 구조를 추상화하고 각각의 전문 시스템을 구현화 함으로써 일관성 있고 유연한 구조로 개발</StyleContent>
                         </StyleContents>
                         <StyleImages>
-                            <StyleProjectImage src={Project5} title="티몬데이룰렛1" alt="" />
+                            <StyleProjectImage theme={theme} src={Project5} title="티몬데이룰렛1" alt="" />
                         </StyleImages>
                     </StyleContentsRight>
                 </StyleContentsArea>

@@ -10,7 +10,6 @@ export const StyleProject = styled.section`
 
 export const StyleProjectTitle = styled.div`
     font-weight: normal;
-    // font-size: 17px
 `;
 
 export const StyleSubTitle = styled.p`
@@ -35,11 +34,16 @@ export const StyleContentsTitle = styled.h4`
 export const StyleContentsArea = styled.div`
     display: flex;
     flex-wrap: nowrap;
+
+    @media ${({ theme }) => theme.device.mobile} {
+        display: block;
+    }
 `;
+
 
 export const StyleContentsLeft = styled.div`
     flex-shrink: 0;
-    width: 400px;
+    width: 350px;
 `;
 
 export const StyleContentsRight = styled.div`
@@ -55,10 +59,18 @@ export const StyleImage = styled.img`
     width: 200px;
     margin: 2px;
     border-radius: 5px;
+
+    @media ${({ theme }) => theme.device.mobile} {
+        width: 24%;
+    }
 `;
 
 export const StyleProjectImage = styled.img`
     width: 600px;
     margin: 2px;
     border-radius: 5px;
+
+    @media ${({ theme }) => theme.device.mobile} {
+        width: 100%;
+    }
 `;

@@ -3893,20 +3893,6 @@ body.is-touch #banner {
         width: 9em;
     }
 
-    /* Nav */
-    #page-wrapper {
-        -moz-backface-visibility: hidden;
-        -webkit-backface-visibility: hidden;
-        -ms-backface-visibility: hidden;
-        backface-visibility: hidden;
-        -moz-transition: -moz-transform 0.5s ease;
-        -webkit-transition: -webkit-transform 0.5s ease;
-        -ms-transition: -ms-transform 0.5s ease;
-        transition: transform 0.5s ease;
-        padding-bottom: 1px;
-        padding-top: 44px !important;
-    }
-
     #titleBar {
         -moz-backface-visibility: hidden;
         -webkit-backface-visibility: hidden;
@@ -4104,18 +4090,14 @@ body.is-touch #banner {
         padding-bottom: 5px;
     }
 
-    .tech_icon {
-        width: 60px;
-        padding: 10px;
-    }
-
     table td {
         padding: 3px;
     }
 
     /* Basic */
     html, body {
-        min-width: 320px;
+        width: 100%;
+        height: 100%;
     }
 
     body, input, select, textarea {
@@ -4166,7 +4148,7 @@ body.is-touch #banner {
     }
 
     .career {
-        font-size: 8pt;
+        font-size: 5pt;
     }
 
 }

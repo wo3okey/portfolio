@@ -4,12 +4,6 @@ import Typed from 'react-typed';
 const Intro = () => {
   return (
     <div>
-      <header id="header">
-        <h1 id="logo">
-          <a onClick={() => window.location.reload(false)} >Portfolio. Wookey</a>
-        </h1>
-      </header>
-
       <section id="banner">
         <div className="content">
           <header>

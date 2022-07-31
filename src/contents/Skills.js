@@ -1,4 +1,5 @@
-import styled from "styled-components"
+import theme from "../styles/Theme";
+import { StyleSkillLevel, StyleTechImage } from "../styles/StyleSkills"
 import { StyleSperator, StyleDivision } from '../styles/StyleCommon'
 
 import Html5 from "../images/tech_icon/html5.png"
@@ -58,78 +59,67 @@ const Skills = () => {
         <div>
             <section>
                 <StyleDivision>이만큼 노력하고 있어요</StyleDivision>
-                <Title>꽤 친한사이</Title>
-                <TechImage src={Spring} />
-                <TechImage src={SpringBoot} />
-                <TechImage src={JPA} />
-                <TechImage src={Kotlin} />
-                <TechImage src={Java} />
-                <TechImage src={Mysql} />
-                <TechImage src={Redis} />
-                <TechImage src={Git} />
+                <StyleSkillLevel>꽤 친한사이</StyleSkillLevel>
+                <StyleTechImage theme={theme} src={Spring} />
+                <StyleTechImage theme={theme} src={SpringBoot} />
+                <StyleTechImage theme={theme} src={JPA} />
+                <StyleTechImage theme={theme} src={Kotlin} />
+                <StyleTechImage theme={theme} src={Java} />
+                <StyleTechImage theme={theme} src={Mysql} />
+                <StyleTechImage theme={theme} src={Redis} />
+                <StyleTechImage theme={theme} src={Git} />
 
-                <Title>점점 친해지고 있는 사이</Title>
-                <TechImage src={Reacts} />
-                <TechImage src={ElasticSearch} />
-                <TechImage src={Aws} />
-                <TechImage src={Kinesis} />
-                <TechImage src={Dynamodb} />
-                <TechImage src={Docker} />
-                <TechImage src={Airflow} />
-                <TechImage src={Redash} />
-                
+                <StyleSkillLevel>점점 친해지고 있는 사이</StyleSkillLevel>
+                <StyleTechImage theme={theme} src={Reacts} />
+                <StyleTechImage theme={theme} src={ElasticSearch} />
+                <StyleTechImage theme={theme} src={Aws} />
+                <StyleTechImage theme={theme} src={Kinesis} />
+                <StyleTechImage theme={theme} src={Dynamodb} />
+                <StyleTechImage theme={theme} src={Docker} />
+                <StyleTechImage theme={theme} src={Airflow} />
+                <StyleTechImage theme={theme} src={Redash} />
 
-                <Title>친해지고 싶은 사이</Title>
-                <TechImage src={Typescript} />
-                <TechImage src={Rust} />
-                <TechImage src={Kubernetes} />
-                <TechImage src={SpringWebflux} />
-                <TechImage src={Kibana} />
-                <TechImage src={Logstash} />
-                <TechImage src={Nginx} />
 
-                <Title>도움을 많이 받는 사이</Title>
-                <TechImage src={Intelij} />
-                <TechImage src={Datadog} />
-                <TechImage src={Swagger} />
-                <TechImage src={Jira} />
-                <TechImage src={Bitbucket} />
-                <TechImage src={Jenkins} />
-                <TechImage src={Linux} />
-                <TechImage src={Github} />
+                <StyleSkillLevel>친해지고 싶은 사이</StyleSkillLevel>
+                <StyleTechImage theme={theme} src={Kubernetes} />
+                <StyleTechImage theme={theme} src={SpringWebflux} />
+                <StyleTechImage theme={theme} src={Kibana} />
+                <StyleTechImage theme={theme} src={Logstash} />
+                <StyleTechImage theme={theme} src={Typescript} />
+                <StyleTechImage theme={theme} src={Rust} />
+                <StyleTechImage theme={theme} src={Nginx} />
 
-                <Title>꽤 친했던 사이</Title>
-                <TechImage src={Html5} />
-                <TechImage src={Js} />
-                <TechImage src={Css} />
-                <TechImage src={Nodejs} />
-                <TechImage src={RabbitMq} />
-                <TechImage src={Couchbase} />
-                <TechImage src={Memcached} />
-                <TechImage src={Hadoop} />
-                <TechImage src={Oracle} />
-                <TechImage src={Mybatis} />
-                <TechImage src={Maven} />
-                <TechImage src={Bootstrap} />
-                <TechImage src={Jquery} />
-                <TechImage src={Angular} />
-                <TechImage src={Jsp} />
-                <TechImage src={Scouter} />
+                <StyleSkillLevel>도움을 많이 받는 사이</StyleSkillLevel>
+                <StyleTechImage theme={theme} src={Intelij} />
+                <StyleTechImage theme={theme} src={Datadog} />
+                <StyleTechImage theme={theme} src={Swagger} />
+                <StyleTechImage theme={theme} src={Jira} />
+                <StyleTechImage theme={theme} src={Bitbucket} />
+                <StyleTechImage theme={theme} src={Jenkins} />
+                <StyleTechImage theme={theme} src={Linux} />
+                <StyleTechImage theme={theme} src={Github} />
+
+                <StyleSkillLevel>꽤 친했던 사이</StyleSkillLevel>
+                <StyleTechImage theme={theme} src={Html5} />
+                <StyleTechImage theme={theme} src={Js} />
+                <StyleTechImage theme={theme} src={Css} />
+                <StyleTechImage theme={theme} src={Nodejs} />
+                <StyleTechImage theme={theme} src={RabbitMq} />
+                <StyleTechImage theme={theme} src={Couchbase} />
+                <StyleTechImage theme={theme} src={Memcached} />
+                <StyleTechImage theme={theme} src={Hadoop} />
+                <StyleTechImage theme={theme} src={Oracle} />
+                <StyleTechImage theme={theme} src={Mybatis} />
+                <StyleTechImage theme={theme} src={Maven} />
+                <StyleTechImage theme={theme} src={Bootstrap} />
+                <StyleTechImage theme={theme} src={Jquery} />
+                <StyleTechImage theme={theme} src={Angular} />
+                <StyleTechImage theme={theme} src={Jsp} />
+                <StyleTechImage theme={theme} src={Scouter} />
             </section>
             <StyleSperator></StyleSperator>
         </div>
     )
 }
-
-const TechImage = styled.img`
-    width: 150px;
-    padding: 10px;
-`;
-
-const Title = styled.h3`
-    margin-top: 50px;
-    font-width: bold;
-`;
-
 
 export default Skills

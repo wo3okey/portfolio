@@ -1,24 +1,14 @@
-import { StyleProject } from "../styles/StyleProjects"
-import { StyleProjectTitle } from "../styles/StyleProjects"
-import { StyleContentsArea } from "../styles/StyleProjects"
-import { StyleContentsLeft } from "../styles/StyleProjects"
-import { StyleContentsRight } from "../styles/StyleProjects"
-import { StyleContentsTitle } from "../styles/StyleProjects"
-import { StyleContents } from "../styles/StyleProjects"
-import { StyleContent } from "../styles/StyleProjects"
-import { StyleImages } from "../styles/StyleProjects"
-import { StyleImage } from "../styles/StyleProjects"
+import theme from "../styles/Theme";
 
-import { StyleSperator } from '../styles/StyleCommon'
+import { StyleProject, StyleProjectTitle, StyleContentsArea, StyleContentsLeft, StyleContentsRight, StyleContentsTitle, StyleContents, StyleContent, StyleProjectImage, StyleImages, StyleImage } from "../styles/StyleProjects"
+
 import { StyleBadgeGreen } from '../styles/StyleCommon'
-
-import Project1 from "../images/project/project1.JPG"
 
 const CouponAdmin = () => {
     return (
         <div>
             <StyleProject>
-                <StyleContentsArea>
+                <StyleContentsArea theme={theme}>
                     <StyleContentsLeft>
                         <blockquote>
                             <StyleProjectTitle>2018.03 - 2019.03</StyleProjectTitle>
