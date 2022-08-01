@@ -8,17 +8,16 @@ export const StyleMajor = styled.div`
         max-width: 350px;
         padding-bottom: 15px;
         line-height: 15px;
+        font-size: 10px;
     }
 `;
 
 export const StyleMajorDate = styled.div`
     flex-shrink: 0;
     width: 150px;
-    font-weight: normal;
 
     @media ${({ theme }) => theme.device.mobile} {
         width: 75px;
-        font-size: 5px;
     }
 `;
 
@@ -29,13 +28,11 @@ export const StyleMajorCompany = styled.div`
 
     @media ${({ theme }) => theme.device.mobile} {
         width: 70px;
-        font-size: 5px;
     }
 `;
 
 export const StyleMajorExplain = styled.div`
     @media ${({ theme }) => theme.device.mobile} {
         width: 200px;
-        font-size: 5px;
     }
 `;

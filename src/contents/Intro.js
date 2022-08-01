@@ -1,19 +1,19 @@
-import React from 'react';
-import Typed from 'react-typed';
+import theme from "../styles/Theme";
+import { StyleUpdateAt } from "../styles/StyleIntro"
 
 const Intro = () => {
+  const moment = require('moment')
+  const now = moment()
+  const updated = moment('20220731','YYYYMMDD')
+  const diff = now.diff(updated, 'days');
+
   return (
     <div>
       <section id="banner">
         <div className="content">
           <header>
-            <h2><code>Hello Wookey World;</code></h2>
-              {/* <Typed
-              className = "typing"
-              style={{marginRight:'15px', fontSize:'20px'}}
-              strings={["Attractive and Fascinating Developer Wookey Portfolio🧑‍💻"]}
-              typeSpeed={50}
-              /> */}
+            <h2><code>Hello Wookey World;🧑‍💻</code></h2>
+            <StyleUpdateAt theme={theme}>portfolio. last updated 2022.07.31(D+{diff})</StyleUpdateAt>
           </header>
         </div>
       </section>
