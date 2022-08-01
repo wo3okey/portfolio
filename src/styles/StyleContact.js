@@ -22,3 +22,14 @@ export const StyleContactWord = styled.span`
         font-size: 15px;
     }
 `;
+
+export const StyleCopyright = styled.div`
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 15px;
+    text-align: center;
+    
+    @media ${({ theme }) => theme.device.mobile} {
+        font-size: 10px;
+    }
+`;
+

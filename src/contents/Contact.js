@@ -1,5 +1,5 @@
 import theme from "../styles/Theme";
-import { StyleContactWord, StyleMail, StyleThanks } from "../styles/StyleContact"
+import { StyleCopyright, StyleContactWord, StyleMail, StyleThanks } from "../styles/StyleContact"
 
 const Contact = () => {
     return (
@@ -7,10 +7,7 @@ const Contact = () => {
             <footer id="footer">
                 <StyleThanks theme={theme}>읽어주셔서 감사합니다.</StyleThanks>
                 <StyleContactWord theme={theme}>contact. </StyleContactWord><StyleMail theme={theme}>anbriaao@naver.com</StyleMail>
-                <ul class="copyright">
-                    <li>&copy; wookey</li>
-                    <li>Developer. since 2017</li>
-                </ul>
+                <StyleCopyright theme={theme}>wookey  |  Developer. since 2018</StyleCopyright>
             </footer>
         </div>
     );
