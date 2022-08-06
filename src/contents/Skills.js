@@ -2,6 +2,7 @@ import theme from "../styles/Theme";
 import { StyleSkillLevel, StyleTechImage } from "../styles/StyleSkills"
 import { StyleSperator, StyleDivision } from '../styles/StyleCommon'
 
+import Graphql from "../images/tech_icon/graphql.png"
 import Html5 from "../images/tech_icon/html5.png"
 import Rust from "../images/tech_icon/rust.png"
 import Typescript from "../images/tech_icon/typescript.png"
@@ -83,6 +84,7 @@ const Skills = () => {
                 <StyleSkillLevel>친해지고 싶은 사이</StyleSkillLevel>
                 <StyleTechImage theme={theme} src={Kubernetes} />
                 <StyleTechImage theme={theme} src={SpringWebflux} />
+                <StyleTechImage theme={theme} src={Graphql} />
                 <StyleTechImage theme={theme} src={Kibana} />
                 <StyleTechImage theme={theme} src={Logstash} />
                 <StyleTechImage theme={theme} src={Typescript} />
