@@ -29,10 +29,10 @@ const Projects = () => {
             <RoulettePromotion></RoulettePromotion>
             <BehindCoupon></BehindCoupon>
             <CouponAdmin></CouponAdmin>
-            <StyleSperator></StyleSperator>
 
-            <StyleDivision>틈틈히 만들어봤어요</StyleDivision>
-            <PomPom></PomPom>
+            <StyleSperator></StyleSperator>
+            {/* <StyleDivision>틈틈히 만들어봤어요</StyleDivision> */}
+            {/* <PomPom></PomPom> */}
         </div>
     )
 }

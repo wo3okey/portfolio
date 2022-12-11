@@ -12,7 +12,7 @@ const VerticalAdmin = () => {
                     <StyleContentsLeft>
                         <blockquote>
                             <StyleProjectTitle>2021.08 - 2022.08</StyleProjectTitle>
-                            <StyleProjectTitle>버티컬 서비스 어드민</StyleProjectTitle>
+                            <StyleProjectTitle>버티컬 서비스 어드민 시스템</StyleProjectTitle>
                             <StyleBadgeGreen>spring boot</StyleBadgeGreen>
                             <StyleBadgeGreen>kotlin</StyleBadgeGreen>
                             <StyleBadgeGreen>mysql</StyleBadgeGreen>

@@ -61,35 +61,38 @@ const Skills = () => {
             <section>
                 <StyleDivision>이만큼 노력하고 있어요</StyleDivision>
                 <StyleSkillLevel>꽤 친한사이</StyleSkillLevel>
-                <StyleTechImage theme={theme} src={Spring} />
+                
                 <StyleTechImage theme={theme} src={SpringBoot} />
                 <StyleTechImage theme={theme} src={JPA} />
                 <StyleTechImage theme={theme} src={Kotlin} />
                 <StyleTechImage theme={theme} src={Java} />
+                <StyleTechImage theme={theme} src={ElasticSearch} />
                 <StyleTechImage theme={theme} src={Mysql} />
                 <StyleTechImage theme={theme} src={Redis} />
                 <StyleTechImage theme={theme} src={Git} />
 
                 <StyleSkillLevel>점점 친해지고 있는 사이</StyleSkillLevel>
                 <StyleTechImage theme={theme} src={Reacts} />
-                <StyleTechImage theme={theme} src={ElasticSearch} />
                 <StyleTechImage theme={theme} src={Aws} />
                 <StyleTechImage theme={theme} src={Kinesis} />
                 <StyleTechImage theme={theme} src={Dynamodb} />
                 <StyleTechImage theme={theme} src={Docker} />
+                <StyleTechImage theme={theme} src={Kubernetes} />
                 <StyleTechImage theme={theme} src={Airflow} />
                 <StyleTechImage theme={theme} src={Redash} />
+                <StyleTechImage theme={theme} src={Kibana} />
+                <StyleTechImage theme={theme} src={Logstash} />
+                <StyleTechImage theme={theme} src={Nginx} />
 
 
                 <StyleSkillLevel>친해지고 싶은 사이</StyleSkillLevel>
-                <StyleTechImage theme={theme} src={Kubernetes} />
+                
                 <StyleTechImage theme={theme} src={SpringWebflux} />
                 <StyleTechImage theme={theme} src={Graphql} />
-                <StyleTechImage theme={theme} src={Kibana} />
-                <StyleTechImage theme={theme} src={Logstash} />
+                
                 <StyleTechImage theme={theme} src={Typescript} />
                 <StyleTechImage theme={theme} src={Rust} />
-                <StyleTechImage theme={theme} src={Nginx} />
+                
 
                 <StyleSkillLevel>도움을 많이 받는 사이</StyleSkillLevel>
                 <StyleTechImage theme={theme} src={Intelij} />
@@ -102,9 +105,7 @@ const Skills = () => {
                 <StyleTechImage theme={theme} src={Github} />
 
                 <StyleSkillLevel>꽤 친했던 사이</StyleSkillLevel>
-                <StyleTechImage theme={theme} src={Html5} />
-                <StyleTechImage theme={theme} src={Js} />
-                <StyleTechImage theme={theme} src={Css} />
+                <StyleTechImage theme={theme} src={Spring} />
                 <StyleTechImage theme={theme} src={Nodejs} />
                 <StyleTechImage theme={theme} src={RabbitMq} />
                 <StyleTechImage theme={theme} src={Couchbase} />
@@ -113,6 +114,9 @@ const Skills = () => {
                 <StyleTechImage theme={theme} src={Oracle} />
                 <StyleTechImage theme={theme} src={Mybatis} />
                 <StyleTechImage theme={theme} src={Maven} />
+                <StyleTechImage theme={theme} src={Html5} />
+                <StyleTechImage theme={theme} src={Js} />
+                <StyleTechImage theme={theme} src={Css} />
                 <StyleTechImage theme={theme} src={Bootstrap} />
                 <StyleTechImage theme={theme} src={Jquery} />
                 <StyleTechImage theme={theme} src={Angular} />
