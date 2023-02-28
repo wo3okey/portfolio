@@ -43,6 +43,7 @@ import Hadoop from "../images/tech_icon/hadoop.png"
 import Nginx from "../images/tech_icon/nginx.png"
 import Linux from "../images/tech_icon/linux.png"
 import Tomcat from "../images/tech_icon/tomcat.png"
+import Kafka from "../images/tech_icon/kafka.png"
 
 import Reacts from "../images/tech_icon/react.png"
 import Aws from "../images/tech_icon/aws.png"
@@ -62,7 +63,7 @@ const Skills = () => {
                 <StyleDivision>이만큼 노력하고 있어요</StyleDivision>
                 <StyleSkillLevel>꽤 친한사이</StyleSkillLevel>
                 
-                <StyleTechImage theme={theme} src={SpringBoot} />
+                <StyleTechImage theme={theme} src={SpringBoot}/>
                 <StyleTechImage theme={theme} src={JPA} />
                 <StyleTechImage theme={theme} src={Kotlin} />
                 <StyleTechImage theme={theme} src={Java} />
@@ -76,22 +77,22 @@ const Skills = () => {
                 <StyleTechImage theme={theme} src={Aws} />
                 <StyleTechImage theme={theme} src={Kinesis} />
                 <StyleTechImage theme={theme} src={Dynamodb} />
+                <StyleTechImage theme={theme} src={Kafka} />
                 <StyleTechImage theme={theme} src={Docker} />
-                <StyleTechImage theme={theme} src={Kubernetes} />
                 <StyleTechImage theme={theme} src={Airflow} />
                 <StyleTechImage theme={theme} src={Redash} />
                 <StyleTechImage theme={theme} src={Kibana} />
-                <StyleTechImage theme={theme} src={Logstash} />
                 <StyleTechImage theme={theme} src={Nginx} />
 
 
                 <StyleSkillLevel>친해지고 싶은 사이</StyleSkillLevel>
-                
                 <StyleTechImage theme={theme} src={SpringWebflux} />
                 <StyleTechImage theme={theme} src={Graphql} />
                 
                 <StyleTechImage theme={theme} src={Typescript} />
+                <StyleTechImage theme={theme} src={Kubernetes} />
                 <StyleTechImage theme={theme} src={Rust} />
+                <StyleTechImage theme={theme} src={Logstash} />
                 
 
                 <StyleSkillLevel>도움을 많이 받는 사이</StyleSkillLevel>

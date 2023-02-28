@@ -5,11 +5,11 @@ import { StyleSperator, StyleDivision } from '../styles/StyleCommon'
 const Major = () => {
   return (
     <div>
-        <StyleDivision>열심히 달리고 있어요</StyleDivision>
+        <StyleDivision>열심히 달리고 있어요🏃</StyleDivision>
           <StyleMajor theme={theme}>
             <StyleMajorDate theme={theme}>2021.08~ing</StyleMajorDate>
             <StyleMajorCompany theme={theme}>번개장터</StyleMajorCompany>
-            <StyleMajorExplain theme={theme}>카탈로그, 검수대행 시스템 등의 버티컬 서비스 개발</StyleMajorExplain>
+            <StyleMajorExplain theme={theme}>카탈로그, 검수대행, 번개케어 등의 버티컬 서비스 개발</StyleMajorExplain>
           </StyleMajor>
           <StyleMajor theme={theme}>
             <StyleMajorDate theme={theme}>2020.03~2021.07</StyleMajorDate>
@@ -19,7 +19,7 @@ const Major = () => {
           <StyleMajor theme={theme}>
             <StyleMajorDate theme={theme}>2018.01~2020.02</StyleMajorDate>
             <StyleMajorCompany theme={theme}>TMON</StyleMajorCompany>
-            <StyleMajorExplain theme={theme}>쿠폰, 즉시할인, 프로모션 등 마케팅 관련 시스템 개발</StyleMajorExplain>
+            <StyleMajorExplain theme={theme}>쿠폰, 즉시할인, 프로모션 등의 마케팅 관련 시스템 개발</StyleMajorExplain>
           </StyleMajor>
           <StyleMajor theme={theme}>
             <StyleMajorDate theme={theme}>2017.06~2017.08</StyleMajorDate>
