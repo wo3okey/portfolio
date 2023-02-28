@@ -2,10 +2,10 @@ import theme from "../styles/Theme";
 
 import { StyleProject, StyleProjectTitle, StyleContentsArea, StyleContentsLeft, StyleContentsRight, StyleContentsTitle, StyleContents, StyleContent, StyleProjectImage, StyleImages, StyleImage } from "../styles/StyleProjects"
 
-import Catalog1 from "../images/project/catalog1.jpeg"
-import Catalog2 from "../images/project/catalog2.jpeg"
-import Catalog3 from "../images/project/catalog3.jpeg"
-import Catalog4 from "../images/project/catalog4.jpeg"
+import Catalog1 from "../images/project/catalog1.png"
+import Catalog2 from "../images/project/catalog2.png"
+import Catalog3 from "../images/project/catalog3.png"
+import Catalog4 from "../images/project/catalog4.png"
 
 import { StyleBadgeGreen } from '../styles/StyleCommon'
 
@@ -30,23 +30,25 @@ const Catalog = () => {
                         </blockquote>
                     </StyleContentsLeft>
                     <StyleContentsRight>
-                        <StyleContentsTitle>상품의 집합, 카탈로그 모델</StyleContentsTitle>
+                        <StyleContentsTitle>상품의 상위 개념 카탈로그 모델 도입</StyleContentsTitle>
                         <StyleContents>
-                            <StyleContent>상품을 응집화 할 수 있는 카탈로그 모델을 만들고 기존의 상품 시스템과 유연하게 연결</StyleContent>
-                            <StyleContent>모델 정보 변경에 따른 aws kinesis 이벤트 송/수신을 통해 상품의 모델 정보를 재색인 가능하도록 지원</StyleContent>
+                            <StyleContent>상품을 응집화 할 수 있는 카탈로그 모델을 만들고 기존의 상품 서비스에 연결 및 개발</StyleContent>
+                            <StyleContent>모델은 카테고리 및 브랜드 조합 단위 하위 개념에 속하며, 서비스 확장에 유연할 수 있도록 설계 및 개발</StyleContent>
+                            <StyleContent>다양한 카테고리 모델의 하위 속성 및 각 속성별 옵션 구조를 갖는 버티컬 서비스 설계 및 개발</StyleContent>
+                            <StyleContent>발매가, 현재 시세 등 모델의 가격 변동 서비스 개발</StyleContent>
                         </StyleContents>
-                        <StyleContentsTitle>모델 검색 서비스 지원</StyleContentsTitle>
+                        <StyleContentsTitle>모델 탐색기 검색 서비스 지원</StyleContentsTitle>
                         <StyleContents>
-                            <StyleContent>모델명 부분 검색, 모델 고유번호 검색, 키워드 검색 등 다양한 검색 요건을 지원할 수 있는 모델 탐색기 API개발</StyleContent>
-                            <StyleContent>elasticsearch에 모델 정보 색인 및 template, alias 등의 ES 관리 API 개발</StyleContent>
-                            <StyleContent>검색 시스템과 연동하여 모델별 다양한 요건의 상품을 모아볼 수 있는 서비스 페이지 API개발</StyleContent>
-                            <StyleContent>주문 시스템 이벤트 수신 처리에 따른 모델별 거래체결, 평균거래가 정보 제공 API개발 </StyleContent>
+                            <StyleContent>elasticsearch를 활용하여 카탈로그 모델 alias, template 관리 및 데이터 indexing</StyleContent>
+                            <StyleContent>모델명 부분 검색, 모델고유번호(SKU) 검색, 키워드 검색 등 다양한 니즈의 검색 지원 및 개발</StyleContent>
+                            <StyleContent>pagination(size, from) 및 infinite scroll(sort, after)를 활용하여 페이징 시스템 개발</StyleContent>
                         </StyleContents>
                         <StyleImages>
-                            <StyleImage theme={theme} src={Catalog1} title="카탈로그1" alt="" />
-                            <StyleImage theme={theme} src={Catalog2} title="카탈로그2" alt="" />
                             <StyleImage theme={theme} src={Catalog3} title="카탈로그3" alt="" />
                             <StyleImage theme={theme} src={Catalog4} title="카탈로그4" alt="" />
+                            <StyleImage theme={theme} src={Catalog2} title="카탈로그2" alt="" />
+                            <StyleImage theme={theme} src={Catalog1} title="카탈로그1" alt="" />
+
                         </StyleImages>
                     </StyleContentsRight>
                 </StyleContentsArea>
