@@ -24,8 +24,7 @@ const Inspection = () => {
                             <StyleBadgeGreen>redis</StyleBadgeGreen>
                             <StyleBadgeGreen>jpa</StyleBadgeGreen>
                             <StyleBadgeGreen>querydsl</StyleBadgeGreen>
-                            <StyleBadgeGreen>AWS</StyleBadgeGreen>
-                            <StyleBadgeGreen>kinesis</StyleBadgeGreen>
+                            <StyleBadgeGreen>AWS-kinesis</StyleBadgeGreen>
                             <StyleBadgeGreen>spring batch</StyleBadgeGreen>
                             <StyleBadgeGreen>airflow</StyleBadgeGreen>
                             <StyleBadgeGreen>redash</StyleBadgeGreen>
@@ -35,16 +34,16 @@ const Inspection = () => {
                     <StyleContentsRight>
                         <StyleContentsTitle>스트레스 없는 중고거래, 번개케어</StyleContentsTitle>
                         <StyleContents>
-                            <StyleContent>기존 중고커머스 시장에서 볼 수 없던 C2B2C의 중고 거래 시스템 설계 및 개발</StyleContent>
-                            <StyleContent>인증 서비스 고도화로 22년4월 서비스 오픈 당시 월 거래 430여건 수준에서 22년12월 월 거래 8000여건 달성</StyleContent>
-                            <StyleContent>검수 리드타임 축소를 위한 운영 지원 시스템을 개발로, 입고 대비 당일 출고율 10% → 60%로 개선</StyleContent>
+                            <StyleContent>기존의 번개장터, 중고 커머스 시장에서 볼 수 없던 C2B2C의 중고상품 캐어 시스템 설계 및 개발</StyleContent>
+                            <StyleContent>인증 서비스 고도화로 22년4월 서비스 오픈 당시 월 거래 430여건 수준에서 22년12월 8000여건의 유료 거래 달성</StyleContent>
+                            <StyleContent>검수 리드타임 축소를 위한 운영 지원 시스템을 개발을 통해 입고 대비 당일 출고율 10% → 60% 이상 개선</StyleContent>
 
                         </StyleContents>
-                        <StyleContentsTitle>전사 규모 범위의 신규 서비스 런칭</StyleContentsTitle>
+                        <StyleContentsTitle>전사 규모의 신규 서비스 런칭</StyleContentsTitle>
                         <StyleContents>
                             <StyleContent>상품, 검색, 주문/결제, 배송에 연관된 유저, 검수자, 운영자 등을 위한 전사 범위의 API 시스템 개발</StyleContent>
-                            <StyleContent>상품 및 주문 시스템에 번개케어 상태 변경에 대한 aws kinesis 이벤트 송/수신 처리</StyleContent>
-                            <StyleContent>사업 및 통계 팀 인사이트 지원을 위해 airflow 및 batch task를 통한 번개케어 거래 현황 발송 스케줄 시스템 개발</StyleContent>
+                            <StyleContent>상품 및 주문 시스템에 번개케어 상태 변경에 대한 kinesis 이벤트 송/수신 처리</StyleContent>
+                            <StyleContent>airflow, batch task 등을 활용하여 사업 및 통계 팀 인사이트 지원을 위한 번개케어 거래현황 발송 시스템 개발</StyleContent>
                         </StyleContents>
                         <StyleImages>
                             <StyleImage theme={theme} src={Inspection1} title="검수대행1" alt="" />

@@ -23,17 +23,16 @@ const Catalog = () => {
                             <StyleBadgeGreen>mysql</StyleBadgeGreen>
                             <StyleBadgeGreen>redis</StyleBadgeGreen>
                             <StyleBadgeGreen>jpa</StyleBadgeGreen>
-                            <StyleBadgeGreen>AWS</StyleBadgeGreen>
+                            <StyleBadgeGreen>AWS-kinesis</StyleBadgeGreen>
                             <StyleBadgeGreen>elasticsearch</StyleBadgeGreen>
-                            <StyleBadgeGreen>kinesis</StyleBadgeGreen>
-                            <StyleBadgeGreen>parameter store</StyleBadgeGreen>
+                            <StyleBadgeGreen>google-drive-api</StyleBadgeGreen>
                         </blockquote>
                     </StyleContentsLeft>
                     <StyleContentsRight>
                         <StyleContentsTitle>상품의 집합, 카탈로그 모델</StyleContentsTitle>
                         <StyleContents>
-                            <StyleContent>상품을 응집화 할 수 있는 카탈로그 모델을 만들고 기존의 상품 시스템과 유연하게 연결</StyleContent>
-                            <StyleContent>모델 정보 변경에 따른 aws kinesis 이벤트 송/수신을 통해 상품의 모델 정보를 재색인 가능하도록 지원</StyleContent>
+                            <StyleContent>상품을 응집화 할 수 있는 카탈로그 모델을 만들고 기존의 상품 시스템과 유연하게 연결한 시스템 설계 및 개발</StyleContent>
+                            <StyleContent>모델 정보 변경에 따른 kinesis 이벤트 송/수신을 통해 상품의 모델 정보를 색인 가능하도록 지원</StyleContent>
                         </StyleContents>
                         <StyleContentsTitle>모델 검색 서비스 지원</StyleContentsTitle>
                         <StyleContents>

@@ -18,10 +18,9 @@ const VerticalAdmin = () => {
                             <StyleBadgeGreen>mysql</StyleBadgeGreen>
                             <StyleBadgeGreen>redis</StyleBadgeGreen>
                             <StyleBadgeGreen>jpa</StyleBadgeGreen>
-                            <StyleBadgeGreen>AWS</StyleBadgeGreen>
+                            <StyleBadgeGreen>querydsl</StyleBadgeGreen>
+                            <StyleBadgeGreen>AWS-kinesis</StyleBadgeGreen>
                             <StyleBadgeGreen>elasticsearch</StyleBadgeGreen>
-                            <StyleBadgeGreen>parameter store</StyleBadgeGreen>
-                            <StyleBadgeGreen>reactjs</StyleBadgeGreen>
                         </blockquote>
                     </StyleContentsLeft>
                     <StyleContentsRight>
