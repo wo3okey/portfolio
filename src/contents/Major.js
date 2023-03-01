@@ -14,7 +14,7 @@ const Major = () => {
           <StyleMajor theme={theme}>
             <StyleMajorDate theme={theme}>2020.03~2021.07</StyleMajorDate>
             <StyleMajorCompany theme={theme}>IBKsystem</StyleMajorCompany>
-            <StyleMajorExplain theme={theme}>한국주택금융공사(HF) 차세대 시스템 주신보 개인보증 시스템 개발</StyleMajorExplain>
+            <StyleMajorExplain theme={theme}>한국주택금융공사(HF) 차세대 시스템 주신보 개인보증 개발</StyleMajorExplain>
           </StyleMajor>
           <StyleMajor theme={theme}>
             <StyleMajorDate theme={theme}>2018.01~2020.02</StyleMajorDate>
@@ -24,7 +24,7 @@ const Major = () => {
           <StyleMajor theme={theme}>
             <StyleMajorDate theme={theme}>2017.06~2017.08</StyleMajorDate>
             <StyleMajorCompany theme={theme}>TMON</StyleMajorCompany>
-            <StyleMajorExplain theme={theme}>인턴 과제수행 및 정규직 전환</StyleMajorExplain>
+            <StyleMajorExplain theme={theme}>인턴 과제 수행 및 정규직 전환</StyleMajorExplain>
           </StyleMajor>
           <StyleMajor theme={theme}>
             <StyleMajorDate theme={theme}>2012.03~2018.02</StyleMajorDate>

@@ -24,7 +24,7 @@ const VerticalAdmin = () => {
                         </blockquote>
                     </StyleContentsLeft>
                     <StyleContentsRight>
-                        <StyleContentsTitle>운영자, 검수자를 위한 어드민 시스템</StyleContentsTitle>
+                        <StyleContentsTitle>운영자, 검수자를 위한 어드민</StyleContentsTitle>
                         <StyleContents>
                             <StyleContent>번개케어 시스템 주문, 입고, 배송 등의 관리 API 개발</StyleContent>
                             <StyleContent>검수대행 모델별 주문현황, 일자별 주문현황 등 모니터링 가능한 통계 대시보드 API 개발</StyleContent>

@@ -47,7 +47,9 @@ const Inspection = () => {
                         </StyleContents>
                         <StyleContentsTitle>상품명/카테고리 기반의 모델 추천</StyleContentsTitle>
                         <StyleContents>
-                            <StyleContent>유저가 판매를 위해 입력한 상품명, 카테고리를 기반으로 모델 추천 시스템 API 개발</StyleContent>
+                            <StyleContent>elasticsearch를 활용하여 80~90% 이상 정확도의 상품명/카테고리 기반 모델 추천 API 개발(비정상 상품명 제외)</StyleContent>
+                            <StyleContent>tokenizer, analyzer를 활용하여 색인된 모델 정보에 대해 적절한 형태소 분리 및 분석</StyleContent>
+                            <StyleContent>field에 따라 적절한 filter, term, match, should, boost 등 query 요소를 통해 추천 일치율 조정</StyleContent>
                         </StyleContents>
                         <StyleImages>
                             <StyleImage theme={theme} src={Inspection1} title="검수대행1" alt="" />
