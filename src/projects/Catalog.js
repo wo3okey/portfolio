@@ -31,13 +31,13 @@ const Catalog = () => {
                     <StyleContentsRight>
                         <StyleContentsTitle>상품의 집합, 카탈로그 모델</StyleContentsTitle>
                         <StyleContents>
-                            <StyleContent>상품을 응집화 할 수 있는 카탈로그 모델을 만들고 기존의 상품 시스템과 유연하게 연결한 시스템 설계 및 개발</StyleContent>
-                            <StyleContent>모델 정보 변경에 따른 kinesis 이벤트 송/수신을 통해 상품의 모델 정보를 색인 가능하도록 지원</StyleContent>
+                            <StyleContent>상품을 모델 단위로 집합화 할 수 있는 카탈로그 모델 시스템 설계 및 개발</StyleContent>
+                            <StyleContent>모델 정보 변경에 따른 kinesis 이벤트 송신을 통해 상품, 검색 시스템에 색인 지원</StyleContent>
                         </StyleContents>
                         <StyleContentsTitle>모델 검색 서비스 지원</StyleContentsTitle>
                         <StyleContents>
-                            <StyleContent>모델명 부분 검색, 모델 고유번호 검색, 키워드 검색 등 다양한 검색 요건을 지원할 수 있는 모델 탐색기 API개발</StyleContent>
-                            <StyleContent>elasticsearch에 모델 정보 색인 및 template, alias 등의 ES 관리 API 개발</StyleContent>
+                            <StyleContent>elasticsearch에 모델 정보 색인, template 및 alias 관련 ES 관리 API 개발</StyleContent>
+                            <StyleContent>elasticsearch를 활용하여 모델명, 고유번호, 키워드 검색 등 다양한 검색 요건을 지원할 수 있는 모델 탐색기 API개발</StyleContent>
                             <StyleContent>검색 시스템과 연동하여 모델별 다양한 요건의 상품을 모아볼 수 있는 서비스 페이지 API개발</StyleContent>
                             <StyleContent>주문 시스템 이벤트 수신 처리에 따른 모델별 거래체결, 평균거래가 정보 제공 API개발 </StyleContent>
                         </StyleContents>

@@ -27,7 +27,7 @@ const HfRenewal = () => {
                         <StyleContents>
                             <StyleContent>주택신용보증팀(주신보)의 개인보증 업무 담당</StyleContent>
                             <StyleContent>전세반환보증, 보증인변경, 보증료수납관리 등 개인 관련 보증 업무 시스템 개발</StyleContent>
-                            <StyleContent>신용평가 룰 개발 및 법 개정사항 반영</StyleContent>
+                            <StyleContent>신용평가 rule 시스템 개발 및 법 개정사항 반영</StyleContent>
                         </StyleContents>
                         <StyleContentsTitle>대외 금융시스템 연계 구성을 위한 전문 시스템 개발</StyleContentsTitle>
                         <StyleContents>

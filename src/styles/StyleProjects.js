@@ -66,7 +66,7 @@ export const StyleImage = styled.img`
 `;
 
 export const StyleProjectImage = styled.img`
-    width: 600px;
+    width: 800px;
     margin: 2px;
     border-radius: 5px;
 
