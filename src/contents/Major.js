@@ -29,7 +29,7 @@ const Major = () => {
           <StyleMajor theme={theme}>
             <StyleMajorDate theme={theme}>2012.03~2018.02</StyleMajorDate>
             <StyleMajorCompany theme={theme}>금오공과대학교</StyleMajorCompany>
-            <StyleMajorExplain theme={theme}>컴퓨터소프트웨어공학과 졸업</StyleMajorExplain>
+            <StyleMajorExplain theme={theme}>컴퓨터소프트웨어공학과 학사</StyleMajorExplain>
           </StyleMajor>
       <StyleSperator></StyleSperator>
     </div>
