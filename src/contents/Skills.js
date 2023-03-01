@@ -74,7 +74,6 @@ const Skills = () => {
                 <StyleTechImage theme={theme} src={Git} />
 
                 <StyleSkillLevel>점점 친해지고 있는 사이</StyleSkillLevel>
-                <StyleTechImage theme={theme} src={Reacts} />
                 <StyleTechImage theme={theme} src={Aws} />
                 <StyleTechImage theme={theme} src={Kinesis} />
                 <StyleTechImage theme={theme} src={Dynamodb} />
@@ -84,6 +83,7 @@ const Skills = () => {
                 <StyleTechImage theme={theme} src={Redash} />
                 <StyleTechImage theme={theme} src={Kibana} />
                 <StyleTechImage theme={theme} src={Nginx} />
+                <StyleTechImage theme={theme} src={Reacts} />
 
 
                 <StyleSkillLevel>친해지고 싶은 사이</StyleSkillLevel>
