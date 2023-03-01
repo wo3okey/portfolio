@@ -17,7 +17,7 @@ const Inspection = () => {
                     <StyleContentsLeft>
                         <blockquote>
                             <StyleProjectTitle>2021.12 - 2022.06</StyleProjectTitle>
-                            <StyleProjectTitle>번개케어 시스템</StyleProjectTitle>
+                            <StyleProjectTitle>번개케어</StyleProjectTitle>
                             <StyleBadgeGreen>spring boot</StyleBadgeGreen>
                             <StyleBadgeGreen>kotlin</StyleBadgeGreen>
                             <StyleBadgeGreen>mysql</StyleBadgeGreen>

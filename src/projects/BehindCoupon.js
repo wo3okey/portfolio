@@ -12,7 +12,7 @@ const BehindCoupon = () => {
                     <StyleContentsLeft>
                         <blockquote>
                             <StyleProjectTitle>2019.03 - 2019.05</StyleProjectTitle>
-                            <StyleProjectTitle>비하인드 쿠폰 시스템</StyleProjectTitle>
+                            <StyleProjectTitle>비하인드 쿠폰</StyleProjectTitle>
                             <StyleBadgeGreen>spring batch</StyleBadgeGreen>
                             <StyleBadgeGreen>java</StyleBadgeGreen>
                             <StyleBadgeGreen>mysql</StyleBadgeGreen>
