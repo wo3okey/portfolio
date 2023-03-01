@@ -48,7 +48,7 @@ const Inspection = () => {
                         <StyleContents>
                             <StyleContent>elasticsearch를 활용하여 80~90% 이상 정확도의 상품명/카테고리 기반 모델 추천 API 개발(비정상 상품명 제외)</StyleContent>
                             <StyleContent>상품명 분리의 tokenizer, 모델명 분석의 검색 analyzer를 적절하게 적용하여 추천 정확도 조정</StyleContent>
-                            <StyleContent>모델 field에 따라 적절한 filter, term, match, should, boost 등 query를 통해 추천 정확도 조정</StyleContent>
+                            <StyleContent>모델 field에 따라 적절한 filter, match query 및 minimum_should_match, boost 등 속성을 통해 추천 정확도 조정</StyleContent>
                         </StyleContents>
                         <StyleImages>
                             <StyleImage theme={theme} src={Inspection1} title="검수대행1" alt="" />
