@@ -44,6 +44,7 @@ import Nginx from "../images/tech_icon/nginx.png"
 import Linux from "../images/tech_icon/linux.png"
 import Tomcat from "../images/tech_icon/tomcat.png"
 import Kafka from "../images/tech_icon/kafka.png"
+import Svelte from "../images/tech_icon/svelte.png"
 
 import Reacts from "../images/tech_icon/react.png"
 import Aws from "../images/tech_icon/aws.png"
@@ -88,7 +89,7 @@ const Skills = () => {
                 <StyleSkillLevel>친해지고 싶은 사이</StyleSkillLevel>
                 <StyleTechImage theme={theme} src={SpringWebflux} />
                 <StyleTechImage theme={theme} src={Graphql} />
-                
+                <StyleTechImage theme={theme} src={Svelte} />
                 <StyleTechImage theme={theme} src={Typescript} />
                 <StyleTechImage theme={theme} src={Kubernetes} />
                 <StyleTechImage theme={theme} src={Rust} />
