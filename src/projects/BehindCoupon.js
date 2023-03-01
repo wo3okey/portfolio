@@ -22,16 +22,12 @@ const BehindCoupon = () => {
                         </blockquote>
                     </StyleContentsLeft>
                     <StyleContentsRight>
-                        <StyleContentsTitle>대용량 개인화 데이터 처리 및 비하인드 쿠폰 발급 시스템 개발</StyleContentsTitle>
+                        <StyleContentsTitle>대량의 개인화 쿠폰 발급</StyleContentsTitle>
                         <StyleContents>
-                            <StyleContent>고객마케팅팀과의 협업을 통해 Hive에 적게는 몇만, 많게는 천만건 이상의 개인화 타겟 데이터 인입</StyleContent>
-                            <StyleContent>Hive 저장소에 있는 원천데이터는 배치를 통해 Redis로 이관하여 중간테이블 데이터로 활용</StyleContent>
-                            <StyleContent>Redis의 타겟 데이터를 기반으로 쿠폰발급API를 호출하여 비하인드 쿠폰을 발급하는 배치 시스템 개발</StyleContent>
-                        </StyleContents>
-                        <StyleContentsTitle>쿠폰 데이터 저장소 효율성 및 사용율 증가</StyleContentsTitle>
-                        <StyleContents>
-                            <StyleContent>쿠폰 테이블 내 사용되지않는 dummy data 감소로 인한 쿠폰 데이터 효율성 증가</StyleContent>
-                            <StyleContent>깜짝쿠폰 운영으로 쿠폰 이벤트 운영 지원 가능 및 구매효율 증대 효과에 기여</StyleContent>
+                            <StyleContent>개인화된 깜짝 쿠폰(비하인드) 시스템 운영으로 상품 구매 효율 증대에 기여</StyleContent>
+                            <StyleContent>고객 마케팅 팀으로부터 적게는 몇만, 많게는 3000만건 이상의 개인화 쿠폰 발급 대상 정보를 hive 저장소로 인입</StyleContent>
+                            <StyleContent>hive 저장소에 있는 원천 데이터는 batch 시스템을 통해 redis로 이관 및 중간 테이블 데이터로 활용</StyleContent>
+                            <StyleContent>redis의 타겟 데이터를 기반으로 partition을 나누어 batch로 쿠폰 bulk 발급</StyleContent>
                         </StyleContents>
                     </StyleContentsRight>
                 </StyleContentsArea>
