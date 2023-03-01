@@ -17,7 +17,7 @@ const BungaeCare = () => {
                     <StyleContentsLeft>
                         <blockquote>
                             <StyleProjectTitle>2022.08 - 2022.12</StyleProjectTitle>
-                            <StyleProjectTitle>케어관 서비스</StyleProjectTitle>
+                            <StyleProjectTitle>케어관</StyleProjectTitle>
                             <StyleBadgeGreen>spring boot</StyleBadgeGreen>
                             <StyleBadgeGreen>kotlin</StyleBadgeGreen>
                             <StyleBadgeGreen>mysql</StyleBadgeGreen>
