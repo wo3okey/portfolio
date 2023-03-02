@@ -33,7 +33,7 @@ const CouponAdmin = () => {
                             <StyleContent>쿠폰 단건, 일괄, 발급 등을 지원할 수 있는 어드민 시스템 개발</StyleContent>
                             <StyleContent>쿠폰 데이터 용도에 따라 mysqlDB, redis, couchbase, rabbitMQ 등의 미들웨어 활용</StyleContent>
                         </StyleContents>
-                        <StyleContentsTitle>레거시 관리</StyleContentsTitle>
+                        <StyleContentsTitle>레거시 리펙토링</StyleContentsTitle>
                         <StyleContents>
                             <StyleContent>60개 이상의 쿠폰 정책 로직을 캡슐화하고 역할과 책임이 명확한 구조로 재설계</StyleContent>
                             <StyleContent>TDD/BDD 기반으로 단일 책임 수준의 검증이 가능하도록 리펙토링</StyleContent>
