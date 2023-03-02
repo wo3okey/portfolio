@@ -14,20 +14,20 @@ import PomPom from "../projects/PomPom"
 const Projects = () => {
     return (
         <div>
-            <StyleDivision>경력 얘기해볼게요</StyleDivision>
+            <StyleDivision>다양한 경험을 했어요</StyleDivision>
 
-            <StyleCompany>2021.08 - ing, 번개장터</StyleCompany>
+            <StyleCompany>번개장터 | 2021.08 - ing</StyleCompany>
             <BungaeCare></BungaeCare>
             <Inspection></Inspection>
             <Catalog></Catalog>
             <VerticalAdmin></VerticalAdmin>
             <StyleSperator></StyleSperator>
 
-            <StyleCompany>2020.03 - 2021.07, IBKsystem</StyleCompany>
+            <StyleCompany>IBK시스템 | 2020.03 - 2021.07</StyleCompany>
             <HfRenewal></HfRenewal>
             <StyleSperator></StyleSperator>
 
-            <StyleCompany>2018.01 - 2020.02, TMON</StyleCompany>
+            <StyleCompany>티몬 | 2018.01 - 2020.02</StyleCompany>
             <RoulettePromotion></RoulettePromotion>
             <BehindCoupon></BehindCoupon>
             <CouponAdmin></CouponAdmin>

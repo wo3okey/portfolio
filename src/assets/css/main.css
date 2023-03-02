@@ -3444,6 +3444,7 @@ body.is-touch #banner {
     background: #272833;
     padding: 6em 0;
     text-align: center;
+    margin-top: 100px
 }
 
 #footer .icons .icon.alt {

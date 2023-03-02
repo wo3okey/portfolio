@@ -16,7 +16,9 @@ const Contact = () => {
 
             <footer id="footer">
                 <StyleThanks theme={theme}>읽어주셔서 감사합니다.</StyleThanks>
-                <StyleContactWord theme={theme}>contact. </StyleContactWord><StyleMail theme={theme}>anbriaao@naver.com</StyleMail>
+                <StyleContactWord theme={theme}>
+                    <a href={"https://wo3okey.github.io/"} target={"_blank"}>blog</a> | <a href={"https://github.com/wo3okey"} target={"_blank"}>github</a> | <a href={"mailto:anbriaao@naver.com"}>email </a>
+                    </StyleContactWord>
                 <StyleCopyright theme={theme}>wookey  |  Developer. since 2018</StyleCopyright>
             </footer>
         </div>
