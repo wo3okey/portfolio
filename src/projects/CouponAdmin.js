@@ -37,7 +37,7 @@ const CouponAdmin = () => {
                         <StyleContents>
                             <StyleContent>60개 이상의 쿠폰 정책 로직을 캡슐화하고 역할과 책임이 명확한 구조로 재설계</StyleContent>
                             <StyleContent>TDD/BDD 기반으로 단일 책임 수준의 검증이 가능하도록 리펙토링</StyleContent>
-                            <StyleContent>응답시간이 60s 소요된 레거시 어드민 관리 페이지를 10ms 수준으로 변경</StyleContent>
+                            <StyleContent>응답시간이 60s 소요된 레거시 어드민 관리 페이지를 30ms 수준으로 변경</StyleContent>
                         </StyleContents>
                     </StyleContentsRight>
                 </StyleContentsArea>

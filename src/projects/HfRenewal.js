@@ -14,27 +14,30 @@ const HfRenewal = () => {
                     <StyleContentsLeft>
                         <blockquote>
                         <StyleProjectTitle>2020.04 - 2021.07</StyleProjectTitle>
-                        <StyleProjectTitle>한국주택금융공사 차세대 시스템</StyleProjectTitle>
+                        <StyleProjectTitle>한국주택금융공사(HF) 차세대 시스템</StyleProjectTitle>
                             <StyleBadgeGreen>java</StyleBadgeGreen>
                             <StyleBadgeGreen>oracle</StyleBadgeGreen>
                             <StyleBadgeGreen>web square</StyleBadgeGreen>
                             <StyleBadgeGreen>pro object</StyleBadgeGreen>
+                            <StyleBadgeGreen>MMS</StyleBadgeGreen>
+                            <StyleBadgeGreen>MCA</StyleBadgeGreen>
                             <StyleBadgeGreen>FEP</StyleBadgeGreen>
+                            <StyleBadgeGreen>jeus</StyleBadgeGreen>
+                            <StyleBadgeGreen>dev eye</StyleBadgeGreen>
                         </blockquote>
                     </StyleContentsLeft>
                     <StyleContentsRight>
                         <StyleContentsTitle>580억 규모의 한국주택금융공사(HF) 차세대 시스템 개발</StyleContentsTitle>
                         <StyleContents>
-                            <StyleContent>주택신용보증팀(주신보)의 개인보증 업무 담당</StyleContent>
+                            <StyleContent>주택신용보증팀(주신보)의 개인보증 업무 프로세스 개발</StyleContent>
                             <StyleContent>전세반환보증, 보증인변경, 보증료수납관리 등 개인 관련 보증 업무 시스템 개발</StyleContent>
-                            <StyleContent>신용평가 rule 시스템 개발 및 법 개정사항 반영</StyleContent>
+                            <StyleContent>신용평가 rule 시스템 개발 및 모형별 법 개정사항 반영</StyleContent>
+                            <StyleContent>MMS(Multi Manager System), MCA(Multi Channel Architecture)를 통한 대내외 시스템 연계</StyleContent>
                         </StyleContents>
-                        <StyleContentsTitle>대외 금융시스템 연계 구성을 위한 전문 시스템 개발</StyleContentsTitle>
+                        <StyleContentsTitle>주택신용 보증 전문 시스템 개발</StyleContentsTitle>
                         <StyleContents>
-                            <StyleContent>공사(HF)로부터 은행(BANK), 주택도시기금(HUG), 중앙평가원(JAA), 한국감정원(KAB) 등 FEP 대외기관의 시스템 인터페이스 전문 송수신 시스템 개발</StyleContent>
-                            <StyleContent>MMS(Multi Manager System)와 MAC(Multi Channel Architecture)를 통한 대내 시스템 연계</StyleContent>
-                            <StyleContent>FEP(Front-End Processor) I/F(interface)를 통해 각 대외기관과의 시스템 전문 통신</StyleContent>
-                            <StyleContent>전문 송수신 구조를 추상화하고 각각의 전문 시스템을 구현화 함으로써 일관성 있고 유연한 구조로 개발</StyleContent>
+                            <StyleContent>FEP(Front-End Processor) 시스템의 전문 인터페이스를 통해 각 기관별 전문 송수신 시스템 개발</StyleContent>
+                            <StyleContent>개인, 사업자 보증에 필요한 은행, HUG, 중앙평가원, 한국감정원 등의 대외 기관과 FEP 시스템 연결</StyleContent>
                         </StyleContents>
                         <StyleImages>
                             <StyleProjectImage theme={theme} src={Project5} title="티몬데이룰렛1" alt="" />

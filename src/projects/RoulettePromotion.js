@@ -32,7 +32,7 @@ const RoulettePromotion = () => {
                         <StyleContentsTitle>유연한 설정이 가능한 룰렛 프로모션</StyleContentsTitle>
                         <StyleContents>
                             <StyleContent>쿠폰/적립금/상품 등 다양한 경품 설정이 가능하며, 경품 대상 시스템과 연동하여 즉시 및 예약 지급 가능하도록 개발</StyleContent>
-                            <StyleContent>프로모션 진행 기간, 시간을 유연하게 설정할 수 있고 예약 설정이 가능한 스케줄링 시스템 개발</StyleContent>
+                            <StyleContent>프로모션 진행 기간, 시간을 유연하게 설정할 수 있고 예약 설정이 가능하도록 스케줄링 시스템 개발</StyleContent>
                             <StyleContent>운영자를 위한 룰렛 등록, 운영, 현황 관리 등의 어드민 시스템 개발</StyleContent>
                         </StyleContents>
                         <StyleContentsTitle>일평균 30만 사용자의 참여</StyleContentsTitle>
