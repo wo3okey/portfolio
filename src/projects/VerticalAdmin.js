@@ -21,6 +21,9 @@ const VerticalAdmin = () => {
                             <StyleBadgeGreen>querydsl</StyleBadgeGreen>
                             <StyleBadgeGreen>AWS-kinesis</StyleBadgeGreen>
                             <StyleBadgeGreen>elasticsearch</StyleBadgeGreen>
+                            <StyleBadgeGreen>airflow</StyleBadgeGreen>
+                            <StyleBadgeGreen>redash</StyleBadgeGreen>
+                            <StyleBadgeGreen>slack api</StyleBadgeGreen>
                         </blockquote>
                     </StyleContentsLeft>
                     <StyleContentsRight>

@@ -90,7 +90,7 @@ const Skills = () => {
                 <StyleTechImage theme={theme} src={SpringWebflux} />
                 <StyleTechImage theme={theme} src={Graphql} />
                 <StyleTechImage theme={theme} src={Svelte} />
-                <StyleTechImage theme={theme} src={Typescript} />
+                {/* <StyleTechImage theme={theme} src={Typescript} /> */}
                 <StyleTechImage theme={theme} src={Kubernetes} />
                 <StyleTechImage theme={theme} src={Rust} />
                 <StyleTechImage theme={theme} src={Logstash} />
