@@ -31,8 +31,8 @@ const BungaeCare = () => {
                         <StyleContentsTitle>번개케어 상품을 모아보는 케어관</StyleContentsTitle>
                         <StyleContents>
                             <StyleContent>번개케어가 가능한 상품 및 모델을 모아볼 수 있는 서비스 페이지 API 개발</StyleContent>
-                            <StyleContent>client side에서 최소한의 API end-point로 다양한 요구사항을 처리할 수 있도록 유연한 API 설계 및 개발</StyleContent>
-                            <StyleContent>elasticsearch 색인 정보 및 after 페이징을 활용하여 상품, 모델 정보 각각 infinite scroll 지원</StyleContent>
+                            <StyleContent>클라이언트 측에서 최소한의 API 엔드포인트로 다양한 요구사항을 처리할 수 있도록 유연한 API 설계 및 개발</StyleContent>
+                            <StyleContent>elasticsearch의 색인 정보와 after 페이징을 이용하여 상품 및 모델 정보에 대한 무한 스크롤 기능 구현</StyleContent>
                         </StyleContents>
                         <StyleImages>
                             <StyleImage theme={theme} src={BungaeCare1} title="번개케어1" alt="" />
