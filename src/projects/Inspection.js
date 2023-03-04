@@ -27,6 +27,7 @@ const Inspection = () => {
                             <StyleBadgeGreen>AWS-kinesis</StyleBadgeGreen>
                             <StyleBadgeGreen>spring batch</StyleBadgeGreen>
                             <StyleBadgeGreen>airflow</StyleBadgeGreen>
+                            <StyleBadgeGreen>MSA</StyleBadgeGreen>
                         </blockquote>
                     </StyleContentsLeft>
                     <StyleContentsRight>

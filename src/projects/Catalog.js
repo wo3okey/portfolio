@@ -26,6 +26,7 @@ const Catalog = () => {
                             <StyleBadgeGreen>AWS-kinesis</StyleBadgeGreen>
                             <StyleBadgeGreen>elasticsearch</StyleBadgeGreen>
                             <StyleBadgeGreen>google-drive-api</StyleBadgeGreen>
+                            <StyleBadgeGreen>MSA</StyleBadgeGreen>
                         </blockquote>
                     </StyleContentsLeft>
                     <StyleContentsRight>
