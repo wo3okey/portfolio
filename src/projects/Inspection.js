@@ -33,8 +33,8 @@ const Inspection = () => {
                         <StyleContentsTitle>스트레스 없는 중고거래, 번개케어</StyleContentsTitle>
                         <StyleContents>
                             <StyleContent>기존의 번개장터, 중고 커머스의 C2C 시장에서 볼 수 없던 C2B2C 중고상품 캐어 시스템</StyleContent>
-                            <StyleContent>인증 서비스 고도화로 22년4월 서비스 오픈 당시 월 거래 430여건 수준에서 22년12월 8000여건의 유료 거래 달성</StyleContent>
-                            <StyleContent>검수 리드타임 축소를 위한 운영 지원 시스템을 개발을 통해 입고 대비 당일 출고율 10% → 60% 이상 개선</StyleContent>
+                            <StyleContent>번개케어 서비스 고도화 이후 서비스 오픈 당시 22년4월 월 430여 건 거래 → 22년12월 월 8000여 건의 유료 거래 달성</StyleContent>
+                            <StyleContent>검수 리드타임 축소를 위한 운영 지원 시스템을 개발하여, 통해 입고 대비 당일 출고율 10% → 60% 이상 개선</StyleContent>
                         </StyleContents>
                         <StyleContentsTitle>전사 규모의 신규 서비스 런칭</StyleContentsTitle>
                         <StyleContents>

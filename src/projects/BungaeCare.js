@@ -24,6 +24,7 @@ const BungaeCare = () => {
                             <StyleBadgeGreen>redis</StyleBadgeGreen>
                             <StyleBadgeGreen>jpa</StyleBadgeGreen>
                             <StyleBadgeGreen>elasticsearch</StyleBadgeGreen>
+                            <StyleBadgeGreen>AWS-kinesis</StyleBadgeGreen>
                         </blockquote>
                     </StyleContentsLeft>
                     <StyleContentsRight>
