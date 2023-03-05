@@ -26,6 +26,7 @@ const RoulettePromotion = () => {
                             <StyleBadgeGreen>memcached</StyleBadgeGreen>
                             <StyleBadgeGreen>mysql</StyleBadgeGreen>
                             <StyleBadgeGreen>mybatis</StyleBadgeGreen>
+                            <StyleBadgeGreen>MSA</StyleBadgeGreen>
                         </blockquote>
                     </StyleContentsLeft>
                     <StyleContentsRight>
