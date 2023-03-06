@@ -65,6 +65,15 @@ export const StyleImage = styled.img`
     }
 `;
 
+export const StyleCompanyIcon = styled.img`
+    width: 20px;
+    margin-right: 3px;
+
+    @media ${({ theme }) => theme.device.mobile} {
+        width: 15px;
+    }
+`;
+
 export const StyleProjectImage = styled.img`
     width: 800px;
     margin: 2px;
