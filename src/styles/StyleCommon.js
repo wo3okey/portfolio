@@ -5,6 +5,11 @@ export const StyleSperator = styled.hr`
     margin-bottom: 100px;
 `;
 
+export const StyleNoLineSperator = styled.div`
+    margin-top: 100px;
+    margin-bottom: 100px;
+`;
+
 export const StyleDivision = styled.h2`
     margin-bottom: 50px;
     font-weight: normal;

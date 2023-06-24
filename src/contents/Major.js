@@ -5,7 +5,7 @@ import { StyleSperator, StyleDivision } from '../styles/StyleCommon'
 const Major = () => {
   return (
     <div>
-        <StyleDivision>열심히 달리고 있어요</StyleDivision>
+        <StyleDivision>열심히 달리고 있어요🏃</StyleDivision>
           <StyleMajor theme={theme}>
             <StyleMajorDate theme={theme}>2021.08~ing</StyleMajorDate>
             <StyleMajorCompany theme={theme}>번개장터</StyleMajorCompany>
@@ -31,7 +31,6 @@ const Major = () => {
             <StyleMajorCompany theme={theme}>금오공과대학교</StyleMajorCompany>
             <StyleMajorExplain theme={theme}>컴퓨터소프트웨어공학과 학사</StyleMajorExplain>
           </StyleMajor>
-      <StyleSperator></StyleSperator>
     </div>
   );
 }

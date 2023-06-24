@@ -37,6 +37,7 @@ const HfRenewal = () => {
                         <StyleContentsTitle>주택신용 보증 전문 시스템 개발</StyleContentsTitle>
                         <StyleContents>
                             <StyleContent>FEP(Front-End Processor) 시스템의 전문 인터페이스를 통해 각 기관별 전문 송수신 시스템 개발</StyleContent>
+                            <StyleContent>전문의 header, data의 템플릿 설계를 통해 서비스 비즈니스에 집중 가능한 인터페이스 설계 및 개발</StyleContent>
                             <StyleContent>개인, 사업자 보증에 필요한 은행, HUG, 중앙평가원, 한국감정원 등의 대외 기관과 FEP 시스템 연결</StyleContent>
                         </StyleContents>
                         <StyleImages>

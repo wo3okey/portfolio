@@ -1,7 +1,7 @@
 import theme from "../styles/Theme";
 
 import { StyleCompany, StyleCompanyIcon } from "../styles/StyleProjects"
-import { StyleSperator, StyleDivision } from '../styles/StyleCommon'
+import { StyleSperator, StyleDivision, StyleNoLineSperator } from '../styles/StyleCommon'
 
 import BungaeCare from "../projects/BungaeCare"
 import VerticalAdmin from "../projects/VerticalAdmin"
@@ -27,18 +27,17 @@ const Projects = () => {
             <Inspection></Inspection>
             <Catalog></Catalog>
             <VerticalAdmin></VerticalAdmin>
-            <StyleSperator></StyleSperator>
+            <StyleNoLineSperator></StyleNoLineSperator>
 
             <StyleCompany><StyleCompanyIcon theme={theme} src={Ibksystem} title="IBK시스템" alt="" /> IBK시스템 | 2020.03 - 2021.07</StyleCompany>
             <HfRenewal></HfRenewal>
-            <StyleSperator></StyleSperator>
+            <StyleNoLineSperator></StyleNoLineSperator>
 
             <StyleCompany><StyleCompanyIcon theme={theme} src={Tmon} title="티몬" alt="" /> 티몬 | 2018.01 - 2020.02</StyleCompany>
             <RoulettePromotion></RoulettePromotion>
             <BehindCoupon></BehindCoupon>
             <CouponAdmin></CouponAdmin>
 
-            <StyleSperator></StyleSperator>
             {/* <StyleDivision>틈틈히 만들어봤어요</StyleDivision> */}
             {/* <PomPom></PomPom> */}
         </div>

@@ -67,6 +67,7 @@ export const StyleImage = styled.img`
 
 export const StyleCompanyIcon = styled.img`
     width: 20px;
+    margin-top: 10px;
     margin-right: 3px;
 
     @media ${({ theme }) => theme.device.mobile} {

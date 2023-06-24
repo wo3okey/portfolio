@@ -125,7 +125,6 @@ const Skills = () => {
                 <StyleTechImage theme={theme} src={Jsp} />
                 <StyleTechImage theme={theme} src={Scouter} />
             </section>
-            <StyleSperator></StyleSperator>
         </div>
     )
 }
