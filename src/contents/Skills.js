@@ -62,7 +62,7 @@ const Skills = () => {
         <div>
             <section>
                 <StyleDivision>이만큼 노력하고 있어요</StyleDivision>
-                <StyleSkillLevel>꽤 친한사이</StyleSkillLevel>
+                <StyleSkillLevel>꽤 친한 사이</StyleSkillLevel>
                 
                 <StyleTechImage theme={theme} src={SpringBoot}/>
                 <StyleTechImage theme={theme} src={JPA} />

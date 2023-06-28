@@ -20,12 +20,10 @@ const Contact = () => {
                     </StyleContentsLeft>
                     <StyleContentsRight>
                         <StyleContentsTitle></StyleContentsTitle>
-                        <StyleContents>
-                            전사 전체 거래의 6%이상 침투율로 모델 시스템을 통해 거래되고 있습니다.
-                            어느날 전사 카테고리ID 개편으로 인해, 모델의 집합 key 정보인 카테고리 ID 변경에 의해 모델 시스템에 직격탄으로 영향을 받았고,
-                            신/구 카테고리에 모두 대응되는 방어로직 배포 후, DB 및 ES에 각각 update, sync 작업을 진행하고 방어로직 제거 후 논스탑으로 정상 동작을 보장할 수 있었습니다.
+                        전사 전체 거래의 6%이상 침투율로 모델 시스템을 통해 거래되고 있습니다.
+                        어느날 전사 카테고리ID 개편으로 인해, 모델의 집합 key 정보인 카테고리 ID 변경에 의해 모델 시스템에 직격탄으로 영향을 받았고,
+                        신/구 카테고리에 모두 대응되는 방어로직 배포 후, DB 및 ES에 각각 update, sync 작업을 진행하고 방어로직 제거 후 논스탑으로 정상 동작을 보장할 수 있었습니다.
                             
-                        </StyleContents>
                         <StyleImages>
                             <StyleImage theme={theme} src={LookBackCatalog1} title="카탈로그1" alt="" />
                             <StyleImage theme={theme} src={LookBackCatalog2} title="카탈로그2" alt="" />

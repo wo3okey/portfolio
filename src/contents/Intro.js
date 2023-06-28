@@ -12,7 +12,7 @@ const Intro = () => {
       <section id="banner">
         <div className="content">
           <header>
-            <h2><code>Hello Wookey World;🧑‍💻</code></h2>
+            <h2><code>안녕하세요, Wookey 입니다;</code></h2>
             <StyleUpdateAt theme={theme}>portfolio. last updated {moment(updated).format('YYYY.MM.DD')}(D+{diff})</StyleUpdateAt>
           </header>
         </div>

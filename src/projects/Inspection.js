@@ -45,9 +45,9 @@ const Inspection = () => {
                         </StyleContents>
                         <StyleContentsTitle>상품명/카테고리 기반의 카탈로그 모델 추천</StyleContentsTitle>
                         <StyleContents>
-                            <StyleContent>elasticsearch를 활용하여 80~90% 이상 정확도의 상품명/카테고리 기반 모델 추천 API 개발(비정상 상품명 제외)</StyleContent>
-                            <StyleContent>추천 정확도를 높이기 위해, 상품명 분리를 위한 tokenizer와 모델명 분석을 위한 검색 analyzer를 적절히 적용하여 개발</StyleContent>
-                            <StyleContent>모델의 각 field에 맞게 filter, match query, minimum_should_match, boost 등의 속성을 조정하여 추천 정확도 개선</StyleContent>
+                            <StyleContent>elasticsearch query를 적절히 활용하여 90% 이상 정확도의 모델 추천 API 개발(비정상 상품명 제외)</StyleContent>
+                            <StyleContent>상품명 분리 및 모델명 분석을 위해 적합한 tokenizer, 검색 analyzer를 적용하여 추천 정확도 개선</StyleContent>
+                            <StyleContent>모델 field에 따른 filter, match query, minimum_should_match, boost 등의 속성을 조정하여 추천 정확도 개선</StyleContent>
                         </StyleContents>
                         <StyleImages>
                             <StyleImage theme={theme} src={Inspection1} title="검수대행1" alt="" />
