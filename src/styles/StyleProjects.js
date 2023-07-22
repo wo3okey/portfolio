@@ -23,6 +23,10 @@ export const StyleTextLeft = styled.div`
 
 export const StyleContents = styled.ul``;
 
+export const StyleLookBack = styled.div`
+    margin-bottom: 20px;
+`;
+
 export const StyleContent = styled.li`
     padding-bottom: 10px;
 `;

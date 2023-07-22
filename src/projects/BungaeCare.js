@@ -1,6 +1,6 @@
 import theme from "../styles/Theme";
 
-import { StyleProject, StyleProjectTitle, StyleContentsArea, StyleContentsLeft, StyleContentsRight, StyleContentsTitle, StyleContents, StyleContent, StyleProjectImage, StyleImages, StyleImage } from "../styles/StyleProjects"
+import { StyleProject, StyleProjectTitle, StyleContentsArea, StyleContentsLeft, StyleContentsRight, StyleContentsTitle, StyleContents, StyleContent, StyleProjectImage, StyleImages, StyleImage, StyleLookBack } from "../styles/StyleProjects"
 
 import { StyleBadgeGreen } from '../styles/StyleCommon'
 
@@ -41,6 +41,12 @@ const BungaeCare = () => {
                             <StyleImage theme={theme} src={BungaeCare3} title="번개케어3" alt="" />
                             <StyleImage theme={theme} src={BungaeCare4} title="번개케어4" alt="" />
                         </StyleImages>
+                        {/* <StyleContentsTitle>[회고] 케어관</StyleContentsTitle>
+                        <StyleLookBack>
+                        비슷하면서도 다양한 지면의 요구사항 및 정책을 클라이언트에서 편하게 개발할 수 있도록 API 설계에 많은 고민을 하였습니다. 
+                        요구사항에 대한 기준을 명확히하고 기획 정책에 따른 입력 출력을 정리하여, 최소한의 엔드포인트로 다양한 요구사항을 만족시킬 수 있으며 안정적이고 확장성 있는 API를 개발하였습니다. 
+                        최종적으로, 케어관을 통한 번개케어 유료 거래 전환율이 증가하여 GMV가 40% 이상 성장하도록 기여할 수 있었습니다.
+                        </StyleLookBack> */}
 
                     </StyleContentsRight>
                 </StyleContentsArea>
