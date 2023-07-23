@@ -24,6 +24,7 @@ export const StyleTextLeft = styled.div`
 export const StyleContents = styled.ul``;
 
 export const StyleLookBack = styled.div`
+    margin-top: -15px;
     margin-bottom: 20px;
 `;
 

@@ -38,7 +38,7 @@ const RoulettePromotion = () => {
                         </StyleContents>
                         <StyleContentsTitle>일평균 30만 사용자의 참여</StyleContentsTitle>
                         <StyleContents>
-                            <StyleContent>하루에 30만 정도의 사용자 참여와 평균 응답속도 10ms 이내 안정적인 시스템 운영</StyleContent>
+                            <StyleContent>하루 평균 30만 정도의 사용자 참여와 평균 응답속도 10ms 이내 안정적인 시스템 운영</StyleContent>
                             <StyleContent>경품별 최대 당첨 가능 개수와 현재 당첨된 개수 정보는 redis, 최종 당첨 정보는 RDB로 저장 및 개발</StyleContent>
                             <StyleContent>프로모션 정책, 상품, 스케줄링 등 변경이 거의 없는 정보는 memcached를 활용하여 개발</StyleContent>
                             <StyleContent>비정상적인 공격과 다중 요청을 방지하기 위해, 스케줄과 사용자 정보에 unique key index설정</StyleContent>
