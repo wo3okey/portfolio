@@ -39,10 +39,10 @@ const Catalog = () => {
                         </StyleContents>
                         <StyleContentsTitle>모델 검색 서비스 지원</StyleContentsTitle>
                         <StyleContents>
-                            <StyleContent>elasticsearch에 모델 정보 색인 및 template, alias, sync 등 ES 관리 API 개발</StyleContent>
+                            <StyleContent>elasticsearch 모델 정보 색인 및 template, alias, sync 등 ES model index 관리 API 개발</StyleContent>
                             <StyleContent>모델의 이름, 고유번호, 키워드 등 다양한 검색 요건과 정렬, 페이징 기능을 지원하는 모델 탐색기 API 개발</StyleContent>
-                            <StyleContent>검색 시스템과 연동하여 모델별 다양한 요건의 상품을 모아볼 수 있는 서비스 페이지 API개발</StyleContent>
-                            <StyleContent>주문 시스템 이벤트 수신 처리에 따른 모델별 거래 내역 및 시세 제공 API 개발 </StyleContent>
+                            <StyleContent>상품 시스템과 연동하여 모델별 다양한 요건의 상품을 모아볼 수 있는 서비스 페이지 API개발</StyleContent>
+                            <StyleContent>주문 시스템의 kinesis 이벤트 수신 처리에 따른 모델별 거래 내역 스냅샷 정보 및 시세 제공 API 개발 </StyleContent>
                         </StyleContents>
                         <StyleImages>
                             <StyleImage theme={theme} src={Catalog1} title="카탈로그1" alt="" />
