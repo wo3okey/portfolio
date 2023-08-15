@@ -62,7 +62,7 @@ const Contact = () => {
                 <StyleContentsArea theme={theme}>
                     <StyleContentsLeft>
                         <blockquote>
-                            <StyleProjectTitle>개발자의 숙명, 어드민</StyleProjectTitle>
+                            <StyleProjectTitle>백엔드 개발자의 숙명, 어드민</StyleProjectTitle>
                         </blockquote>
                     </StyleContentsLeft>
                     <StyleContentsRight>
@@ -71,7 +71,7 @@ const Contact = () => {
                             개발자 첫 커리어의 1년은 어드민 시스템 개발만 담당했습니다.
                             개발 리스크가 가장 적은 업무라는 이유로 배정받았지만, 수많은 어드민 기능을 만들어 보니 어드민만큼 책임이 따르는 업무도 없다는 걸 깨달았습니다.
                             응답시간을 2000배 이상의 운영 효율 개선, 일괄 처리 시스템, 사용성 증대를 위한 UI 개선 등의 다양한 작업을 수행하며, 운영자의 휴먼 에러를 최소화하고 운영 공수를 줄이는 큰 성과를 이뤄낼 수 있었습니다.
-                            특히 백엔드 개발자에게 어드민은 내가 설계한 시스템의 시각화 공간이라 생각합니다. 잘 설계된 시스템은 잘 만들 수 있는 어드민의 초석이 될 수 있기 때문입니다. 숙명과 같은 어드민 개발 및 개선 업무에 계속 박차를 다하고 있습니다.
+                            특히 백엔드 개발자에게 어드민은 내가 설계한 시스템의 시각화 공간이라 생각합니다. 잘 설계된 시스템은 잘 만들 수 있는 어드민의 초석이 될 수 있기 때문입니다. 그래서 어드민은 백엔드 개발자의 숙명과 같다고 생각합니다.
                         </StyleLookBack>                            
                     </StyleContentsRight>
                 </StyleContentsArea>
