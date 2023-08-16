@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.93f9b5a9.css",
-    "main.js": "/portfolio/static/js/main.f1e84167.js",
+    "main.js": "/portfolio/static/js/main.dc0947fd.js",
     "static/js/787.8aa591e5.chunk.js": "/portfolio/static/js/787.8aa591e5.chunk.js",
     "static/media/roulette1.png": "/portfolio/static/media/roulette1.ae960be193d879375f67.png",
     "static/media/fa-solid-900.svg": "/portfolio/static/media/fa-solid-900.c8a5f7410ef2a4d63988.svg",
@@ -9,22 +9,21 @@
     "static/media/roulette2.png": "/portfolio/static/media/roulette2.2181645a825b3ddead4d.png",
     "static/media/roulette3.png": "/portfolio/static/media/roulette3.d8701a4d511ce4f76f17.png",
     "static/media/roulette4.png": "/portfolio/static/media/roulette4.3e5abd5889d5a01d97d9.png",
-    "static/media/bungaecare2.jpeg": "/portfolio/static/media/bungaecare2.95a076dfda15bb284a1b.jpeg",
     "static/media/project5.png": "/portfolio/static/media/project5.ceb70a515910e61e0007.png",
-    "static/media/bungaecare3.jpeg": "/portfolio/static/media/bungaecare3.c5c767c7e7ca85625c37.jpeg",
     "static/media/look_back_catalog3.jpeg": "/portfolio/static/media/look_back_catalog3.c956c15b359add2385a7.jpeg",
     "static/media/fa-solid-900.eot": "/portfolio/static/media/fa-solid-900.2f6dbd9f998fa1413ff7.eot",
     "static/media/kubernetes.png": "/portfolio/static/media/kubernetes.428cce27b4bdaf24673b.png",
     "static/media/fa-solid-900.ttf": "/portfolio/static/media/fa-solid-900.9b4d14a5508e9cc4ca88.ttf",
     "static/media/intellij.png": "/portfolio/static/media/intellij.45af9d3c3245f5fcac85.png",
-    "static/media/bungaecare1.jpeg": "/portfolio/static/media/bungaecare1.b64ea7dadaae67fca138.jpeg",
     "static/media/hadoop.png": "/portfolio/static/media/hadoop.b084720bf5a24391d807.png",
     "static/media/fa-regular-400.svg": "/portfolio/static/media/fa-regular-400.024286359541b224631b.svg",
     "static/media/look_back_catalog1.jpeg": "/portfolio/static/media/look_back_catalog1.d486d2e53495c4f3bfa0.jpeg",
+    "static/media/bungaecare2.jpeg": "/portfolio/static/media/bungaecare2.93ccc33d2661f8217f90.jpeg",
     "static/media/look_back_catalog2.jpeg": "/portfolio/static/media/look_back_catalog2.8ab129d7f2ae20d5d3be.jpeg",
     "static/media/tmon.png": "/portfolio/static/media/tmon.5f3c53789736b3c5ac51.png",
-    "static/media/bungaecare4.jpeg": "/portfolio/static/media/bungaecare4.1f512b5f1edab07d7758.jpeg",
+    "static/media/bungaecare1.jpeg": "/portfolio/static/media/bungaecare1.66d021b880cc6ec58ad4.jpeg",
     "static/media/project4.JPG": "/portfolio/static/media/project4.e7b622f3140a9b70f9af.JPG",
+    "static/media/bungaecare4.jpeg": "/portfolio/static/media/bungaecare4.ee74fc85d485d7fa6e29.jpeg",
     "static/media/fa-brands-400.eot": "/portfolio/static/media/fa-brands-400.85917bf21118aa3f2e14.eot",
     "static/media/fa-brands-400.ttf": "/portfolio/static/media/fa-brands-400.70150a2b3a50f84aff70.ttf",
     "static/media/inspection2.jpeg": "/portfolio/static/media/inspection2.468a0253bec296758727.jpeg",
@@ -35,6 +34,7 @@
     "static/media/catalog3.jpeg": "/portfolio/static/media/catalog3.a8e74ce7d8ab0af8923d.jpeg",
     "static/media/graphql.png": "/portfolio/static/media/graphql.fc6b9451733c620ceb86.png",
     "static/media/catalog4.jpeg": "/portfolio/static/media/catalog4.534e017ab623f9cd114b.jpeg",
+    "static/media/bungaecare3.jpeg": "/portfolio/static/media/bungaecare3.9e67dcf58620630b9696.jpeg",
     "static/media/catalog2.jpeg": "/portfolio/static/media/catalog2.079dac4759e8f933f10c.jpeg",
     "static/media/inspection4.jpeg": "/portfolio/static/media/inspection4.aff562ef3920a63d2627.jpeg",
     "static/media/fa-solid-900.woff": "/portfolio/static/media/fa-solid-900.e4efd599b7afce2f7b21.woff",
@@ -87,11 +87,11 @@
     "index.html": "/portfolio/index.html",
     "static/media/arrow.svg": "/portfolio/static/media/arrow.41c8f9a12e5a847f153f.svg",
     "main.93f9b5a9.css.map": "/portfolio/static/css/main.93f9b5a9.css.map",
-    "main.f1e84167.js.map": "/portfolio/static/js/main.f1e84167.js.map",
+    "main.dc0947fd.js.map": "/portfolio/static/js/main.dc0947fd.js.map",
     "787.8aa591e5.chunk.js.map": "/portfolio/static/js/787.8aa591e5.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.93f9b5a9.css",
-    "static/js/main.f1e84167.js"
+    "static/js/main.dc0947fd.js"
   ]
 }
