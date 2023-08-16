@@ -16,7 +16,7 @@ const BungaeCare = () => {
                 <StyleContentsArea theme={theme}>
                     <StyleContentsLeft>
                         <blockquote>
-                            <StyleProjectTitle>2022.08 - 2022.12</StyleProjectTitle>
+                            <StyleProjectTitle>2022.08 - 2023.08</StyleProjectTitle>
                             <StyleProjectTitle>케어관</StyleProjectTitle>
                             <StyleBadgeGreen>spring boot</StyleBadgeGreen>
                             <StyleBadgeGreen>kotlin</StyleBadgeGreen>
@@ -27,7 +27,7 @@ const BungaeCare = () => {
                         </blockquote>
                     </StyleContentsLeft>
                     <StyleContentsRight>
-                        <StyleContentsTitle>번개케어 상품을 모아보는 케어관</StyleContentsTitle>
+                        <StyleContentsTitle>번개케어 상품과 모델을 모아보는 케어관</StyleContentsTitle>
                         <StyleContents>
                             <StyleContent>번개케어가 가능한 상품 및 모델을 모아볼 수 있는 서비스 페이지 API 개발</StyleContent>
                             <StyleContent>클라이언트 측에서 최소한의 API endpoint로 다양한 요구사항을 처리할 수 있도록 유연한 API 설계 및 개발</StyleContent>

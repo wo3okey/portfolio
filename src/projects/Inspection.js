@@ -16,7 +16,7 @@ const Inspection = () => {
                 <StyleContentsArea theme={theme}>
                     <StyleContentsLeft>
                         <blockquote>
-                            <StyleProjectTitle>2021.12 - 2022.06</StyleProjectTitle>
+                            <StyleProjectTitle>2021.12 - 2023.06</StyleProjectTitle>
                             <StyleProjectTitle>번개케어</StyleProjectTitle>
                             <StyleBadgeGreen>spring boot</StyleBadgeGreen>
                             <StyleBadgeGreen>kotlin</StyleBadgeGreen>

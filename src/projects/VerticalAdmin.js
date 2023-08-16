@@ -11,7 +11,7 @@ const VerticalAdmin = () => {
                 <StyleContentsArea theme={theme}>
                     <StyleContentsLeft>
                         <blockquote>
-                            <StyleProjectTitle>2021.08 - 2022.08</StyleProjectTitle>
+                            <StyleProjectTitle>2021.08 - 2023.08</StyleProjectTitle>
                             <StyleProjectTitle>버티컬 서비스 어드민</StyleProjectTitle>
                             <StyleBadgeGreen>spring boot</StyleBadgeGreen>
                             <StyleBadgeGreen>kotlin</StyleBadgeGreen>

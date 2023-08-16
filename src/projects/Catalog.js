@@ -16,7 +16,7 @@ const Catalog = () => {
                 <StyleContentsArea theme={theme}>
                     <StyleContentsLeft>
                         <blockquote>
-                            <StyleProjectTitle>2021.08 - 2022.02</StyleProjectTitle>
+                            <StyleProjectTitle>2021.08 - 2023.08</StyleProjectTitle>
                             <StyleProjectTitle>카탈로그 시스템</StyleProjectTitle>
                             <StyleBadgeGreen>spring boot</StyleBadgeGreen>
                             <StyleBadgeGreen>kotlin</StyleBadgeGreen>
