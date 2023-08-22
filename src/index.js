@@ -8,7 +8,6 @@ import './assets/css/noscript.css'
 import App from './App';
 
 import reportWebVitals from './reportWebVitals';
-// import loadExternalJs from './assets/js/loadExternalJs';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -18,5 +17,4 @@ root.render(
   </React.StrictMode>
 );
 
-// loadExternalJs()
 reportWebVitals();
