@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.bb230e6a.css",
-    "main.js": "/portfolio/static/js/main.0c9b1e8b.js",
+    "main.js": "/portfolio/static/js/main.9f15f5cd.js",
     "static/js/787.8aa591e5.chunk.js": "/portfolio/static/js/787.8aa591e5.chunk.js",
     "static/media/roulette1.png": "/portfolio/static/media/roulette1.ae960be193d879375f67.png",
     "static/media/fa-solid-900.svg": "/portfolio/static/media/fa-solid-900.c8a5f7410ef2a4d63988.svg",
@@ -18,12 +18,10 @@
     "static/media/hadoop.png": "/portfolio/static/media/hadoop.b084720bf5a24391d807.png",
     "static/media/fa-regular-400.svg": "/portfolio/static/media/fa-regular-400.024286359541b224631b.svg",
     "static/media/look_back_catalog1.jpeg": "/portfolio/static/media/look_back_catalog1.d486d2e53495c4f3bfa0.jpeg",
-    "static/media/bungaecare2.jpeg": "/portfolio/static/media/bungaecare2.93ccc33d2661f8217f90.jpeg",
     "static/media/look_back_catalog2.jpeg": "/portfolio/static/media/look_back_catalog2.8ab129d7f2ae20d5d3be.jpeg",
     "static/media/tmon.png": "/portfolio/static/media/tmon.5f3c53789736b3c5ac51.png",
     "static/media/bungaecare1.jpeg": "/portfolio/static/media/bungaecare1.66d021b880cc6ec58ad4.jpeg",
     "static/media/project4.JPG": "/portfolio/static/media/project4.e7b622f3140a9b70f9af.JPG",
-    "static/media/bungaecare4.jpeg": "/portfolio/static/media/bungaecare4.ee74fc85d485d7fa6e29.jpeg",
     "static/media/fa-brands-400.eot": "/portfolio/static/media/fa-brands-400.85917bf21118aa3f2e14.eot",
     "static/media/fa-brands-400.ttf": "/portfolio/static/media/fa-brands-400.70150a2b3a50f84aff70.ttf",
     "static/media/inspection2.jpeg": "/portfolio/static/media/inspection2.468a0253bec296758727.jpeg",
@@ -34,10 +32,12 @@
     "static/media/catalog3.jpeg": "/portfolio/static/media/catalog3.a8e74ce7d8ab0af8923d.jpeg",
     "static/media/graphql.png": "/portfolio/static/media/graphql.fc6b9451733c620ceb86.png",
     "static/media/catalog4.jpeg": "/portfolio/static/media/catalog4.534e017ab623f9cd114b.jpeg",
-    "static/media/bungaecare3.jpeg": "/portfolio/static/media/bungaecare3.9e67dcf58620630b9696.jpeg",
+    "static/media/bungaecare4.jpeg": "/portfolio/static/media/bungaecare4.9e67dcf58620630b9696.jpeg",
+    "static/media/bungaecare3.jpeg": "/portfolio/static/media/bungaecare3.ee241306ed1dc95ca46a.jpeg",
     "static/media/catalog2.jpeg": "/portfolio/static/media/catalog2.079dac4759e8f933f10c.jpeg",
     "static/media/inspection4.jpeg": "/portfolio/static/media/inspection4.aff562ef3920a63d2627.jpeg",
     "static/media/fa-solid-900.woff": "/portfolio/static/media/fa-solid-900.e4efd599b7afce2f7b21.woff",
+    "static/media/bungaecare2.jpeg": "/portfolio/static/media/bungaecare2.525e42757f9afa5309c6.jpeg",
     "static/media/fa-brands-400.woff": "/portfolio/static/media/fa-brands-400.cac133c03011645ba509.woff",
     "static/media/datadog.png": "/portfolio/static/media/datadog.06c266b73fad2fde4474.png",
     "static/media/catalog1.jpeg": "/portfolio/static/media/catalog1.62d0dbd6fb812531ac30.jpeg",
@@ -87,11 +87,11 @@
     "index.html": "/portfolio/index.html",
     "static/media/arrow.svg": "/portfolio/static/media/arrow.41c8f9a12e5a847f153f.svg",
     "main.bb230e6a.css.map": "/portfolio/static/css/main.bb230e6a.css.map",
-    "main.0c9b1e8b.js.map": "/portfolio/static/js/main.0c9b1e8b.js.map",
+    "main.9f15f5cd.js.map": "/portfolio/static/js/main.9f15f5cd.js.map",
     "787.8aa591e5.chunk.js.map": "/portfolio/static/js/787.8aa591e5.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.bb230e6a.css",
-    "static/js/main.0c9b1e8b.js"
+    "static/js/main.9f15f5cd.js"
   ]
 }
