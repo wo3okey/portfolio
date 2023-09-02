@@ -29,8 +29,8 @@ const BungaeCare = () => {
                     <StyleContentsRight>
                         <StyleContentsTitle>번개케어 상품과 모델을 모아보는 케어관</StyleContentsTitle>
                         <StyleContents>
-                            <StyleContent>번개케어가 가능한 상품 및 모델을 모아볼 수 있는 서비스 페이지 API 개발</StyleContent>
-                            <StyleContent>클라이언트 측에서 최소한의 API endpoint로 다양한 요구사항을 처리할 수 있도록 유연한 API 설계 및 개발</StyleContent>
+                            <StyleContent>번개케어가 가능한 상품 및 모델을 모아볼 수 있는 케어관 서비스 페이지 API 개발</StyleContent>
+                            <StyleContent>클라이언트에서 최소한의 API endpoint로 다양한 조회 및 검색 처리할 수 있는 유연한 API 설계 및 개발</StyleContent>
                             <StyleContent>카테고리, 브랜드, 상품, 모델 등 다양한 타입의 집합 단위로 묶어 볼 수 있는 큐레이션 시스템 유지보수 및 개발</StyleContent>
                         </StyleContents>
                         <StyleImages>
