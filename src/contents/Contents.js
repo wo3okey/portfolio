@@ -3,6 +3,7 @@ import Major from './Major'
 import Skills from './Skills'
 import Projects from './Projects'
 import LookBack from './LookBack'
+import Class from './Class'
 import Contact from './Contact'
 import { StyleSperator } from '../styles/StyleCommon'
 
@@ -20,6 +21,9 @@ const Contents = () => {
                 <StyleSperator></StyleSperator>
 
                 <Projects></Projects>
+                <StyleSperator></StyleSperator>
+
+                <Class></Class>
                 <StyleSperator></StyleSperator>
 
                 <LookBack></LookBack>
