@@ -4,7 +4,7 @@ import { StyleUpdateAt } from "../styles/StyleIntro"
 const Intro = () => {
   const moment = require('moment')
   const now = moment()
-  const updated = moment('20230717','YYYYMMDD')
+  const updated = moment('20231016','YYYYMMDD')
   const diff = now.diff(updated, 'days');
 
   return (
