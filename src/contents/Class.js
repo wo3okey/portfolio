@@ -26,7 +26,7 @@ const Class = () => {
         <StyleContentsArea theme={theme}>
             <StyleContentsLeft>
                 <blockquote>
-                    <StyleProjectTitle>2016.05~2021.09</StyleProjectTitle>
+                    <StyleProjectTitle>2016.05~2016.09</StyleProjectTitle>
                     <StyleProjectTitle>microsoft x 미담장학회</StyleProjectTitle>
                 </blockquote>
             </StyleContentsLeft>
