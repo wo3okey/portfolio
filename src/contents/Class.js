@@ -46,7 +46,7 @@ const Class = () => {
                 </blockquote>
             </StyleContentsLeft>
             <StyleContentsRight>
-                <StyleContent>학술 동아리 후배 대상 교내 교육 강의</StyleContent>
+                <StyleContent>교내 학술 동아리 후배 대상 교육 강의</StyleContent>
                 <StyleContent>java 프로그래밍 교육 강의 및 멘토</StyleContent>
             </StyleContentsRight>
         </StyleContentsArea>
