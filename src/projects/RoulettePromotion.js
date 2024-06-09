@@ -18,15 +18,14 @@ const RoulettePromotion = () => {
                         <blockquote>
                             <StyleProjectTitle>2019.06 - 2020.01</StyleProjectTitle>
                             <StyleProjectTitle>룰렛 프로모션</StyleProjectTitle>
-                            <StyleBadgeGreen>spring mvc</StyleBadgeGreen>
+                            <StyleBadgeGreen>java 8</StyleBadgeGreen>
+                            <StyleBadgeGreen>spring mvc 4.x</StyleBadgeGreen>
+                            <StyleBadgeGreen>mysql 5.x</StyleBadgeGreen>
                             <StyleBadgeGreen>spring batch</StyleBadgeGreen>
-                            <StyleBadgeGreen>java</StyleBadgeGreen>
-                            <StyleBadgeGreen>angular js</StyleBadgeGreen>
+                            <StyleBadgeGreen>mybatis</StyleBadgeGreen>
                             <StyleBadgeGreen>redis</StyleBadgeGreen>
                             <StyleBadgeGreen>memcached</StyleBadgeGreen>
-                            <StyleBadgeGreen>mysql</StyleBadgeGreen>
-                            <StyleBadgeGreen>mybatis</StyleBadgeGreen>
-                            <StyleBadgeGreen>MSA</StyleBadgeGreen>
+                            <StyleBadgeGreen>angular js</StyleBadgeGreen>
                         </blockquote>
                     </StyleContentsLeft>
                     <StyleContentsRight>

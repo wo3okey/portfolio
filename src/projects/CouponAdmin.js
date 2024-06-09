@@ -13,10 +13,10 @@ const CouponAdmin = () => {
                         <blockquote>
                             <StyleProjectTitle>2018.03 - 2019.03</StyleProjectTitle>
                             <StyleProjectTitle>할인/혜택 쿠폰 어드민</StyleProjectTitle>
-                            <StyleBadgeGreen>spring mvc</StyleBadgeGreen>
+                            <StyleBadgeGreen>java 8</StyleBadgeGreen>
+                            <StyleBadgeGreen>spring mvc 4.x</StyleBadgeGreen>
+                            <StyleBadgeGreen>mysql 5.x</StyleBadgeGreen>
                             <StyleBadgeGreen>spring batch</StyleBadgeGreen>
-                            <StyleBadgeGreen>java</StyleBadgeGreen>
-                            <StyleBadgeGreen>mysql</StyleBadgeGreen>
                             <StyleBadgeGreen>redis</StyleBadgeGreen>
                             <StyleBadgeGreen>mybatis</StyleBadgeGreen>
                             <StyleBadgeGreen>memcached</StyleBadgeGreen>
@@ -24,7 +24,6 @@ const CouponAdmin = () => {
                             <StyleBadgeGreen>couchbase</StyleBadgeGreen>
                             <StyleBadgeGreen>angular js</StyleBadgeGreen>
                             <StyleBadgeGreen>TDD</StyleBadgeGreen>
-                            <StyleBadgeGreen>BDD</StyleBadgeGreen>
                         </blockquote>
                     </StyleContentsLeft>
                     <StyleContentsRight>
@@ -36,7 +35,7 @@ const CouponAdmin = () => {
                         <StyleContentsTitle>레거시 리펙토링</StyleContentsTitle>
                         <StyleContents>
                             <StyleContent>60개 이상의 쿠폰 정책 로직을 캡슐화하고 역할과 책임이 명확한 구조로 재설계</StyleContent>
-                            <StyleContent>TDD/BDD 기반으로 단일 책임 수준의 검증이 가능하도록 리펙토링</StyleContent>
+                            <StyleContent>TDD 기반으로 단일 책임 수준의 검증이 가능하도록 리펙토링</StyleContent>
                             <StyleContent>60초 이상 소요되던 어드민 관리 페이지의 응답시간을 30ms 이하로 개선</StyleContent>
                         </StyleContents>
                     </StyleContentsRight>

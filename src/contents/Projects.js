@@ -12,6 +12,7 @@ import BehindCoupon from "../projects/BehindCoupon"
 import RoulettePromotion from "../projects/RoulettePromotion"
 import HfRenewal from "../projects/HfRenewal"
 import PomPom from "../projects/PomPom"
+import CareWeek from "../projects/CareWeek"
 
 import Bunjang from "../images/company/bunjang.png"
 import Ibksystem from "../images/company/ibksystem.png"
@@ -23,6 +24,7 @@ const Projects = () => {
             <StyleDivision>다양한 경험을 했어요</StyleDivision>
 
             <StyleCompany><StyleCompanyIcon theme={theme} src={Bunjang} title="번개장터" alt="" /> 번개장터 | 2021.08 - ing</StyleCompany>
+            <CareWeek></CareWeek>
             <BungaeCare></BungaeCare>
             <Inspection></Inspection>
             <Catalog></Catalog>

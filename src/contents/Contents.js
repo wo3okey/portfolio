@@ -25,9 +25,9 @@ const Contents = () => {
 
                 <Class></Class>
                 <StyleSperator></StyleSperator>
-
+{/* 
                 <LookBack></LookBack>
-                <StyleSperator></StyleSperator>
+                <StyleSperator></StyleSperator> */}
 
                 <Contact></Contact>
             </div>

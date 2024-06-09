@@ -9,7 +9,7 @@ const Major = () => {
           <StyleMajor theme={theme}>
             <StyleMajorDate theme={theme}>2021.08~ing</StyleMajorDate>
             <StyleMajorCompany theme={theme}>번개장터</StyleMajorCompany>
-            <StyleMajorExplain theme={theme}>카탈로그, 번개케어, 케어관 등의 버티컬 서비스 개발</StyleMajorExplain>
+            <StyleMajorExplain theme={theme}>카탈로그, 번개케어, 하이엔드 홈탭, 프로모션 등의 버티컬 서비스 개발</StyleMajorExplain>
           </StyleMajor>
           <StyleMajor theme={theme}>
             <StyleMajorDate theme={theme}>2020.03~2021.07</StyleMajorDate>

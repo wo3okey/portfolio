@@ -6,6 +6,20 @@ const Class = () => {
     return (
     <div>
 <StyleDivision>교육 경험이 있어요</StyleDivision>
+    <StyleProject>
+        <StyleContentsArea theme={theme}>
+            <StyleContentsLeft>
+                <blockquote>
+                    <StyleProjectTitle>2023.12~2024.05</StyleProjectTitle>
+                    <StyleProjectTitle>스파르타 코딩클럽</StyleProjectTitle>
+                </blockquote>
+            </StyleContentsLeft>
+            <StyleContentsRight>
+                <StyleContent>스파르타 코딩클럽 내일배움캠프 java spring 튜터 </StyleContent>
+                <StyleContent>상위 10% 대상의 챌린지 레벨 수준별 수업 및 특강 진행</StyleContent>
+            </StyleContentsRight>
+        </StyleContentsArea>
+    </StyleProject>
 
     <StyleProject>
         <StyleContentsArea theme={theme}>
@@ -16,8 +30,8 @@ const Class = () => {
                 </blockquote>
             </StyleContentsLeft>
             <StyleContentsRight>
-                <StyleContent>신한투자증권 프로 아카데미 클라우드ICT 개발자 양성 과정 중 spring part 강의</StyleContent>
-                <StyleContent>spring, JPA, test, security, deploy 등 의 기초부터 배포까지 27시간 실무 강의</StyleContent>
+                <StyleContent>신한투자증권 프로 아카데미 클라우드ICT 개발자 양성 과정 중 spring part 전담</StyleContent>
+                <StyleContent>springboot, JPA, security, test, deploy, aws 등 기초부터 배포까지 27시간 집중 강의</StyleContent>
             </StyleContentsRight>
         </StyleContentsArea>
     </StyleProject>

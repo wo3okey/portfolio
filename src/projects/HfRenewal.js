@@ -15,7 +15,7 @@ const HfRenewal = () => {
                         <blockquote>
                         <StyleProjectTitle>2020.04 - 2021.07</StyleProjectTitle>
                         <StyleProjectTitle>한국주택금융공사(HF) 차세대 시스템</StyleProjectTitle>
-                            <StyleBadgeGreen>java</StyleBadgeGreen>
+                            <StyleBadgeGreen>java 8</StyleBadgeGreen>
                             <StyleBadgeGreen>oracle</StyleBadgeGreen>
                             <StyleBadgeGreen>web square</StyleBadgeGreen>
                             <StyleBadgeGreen>pro object</StyleBadgeGreen>

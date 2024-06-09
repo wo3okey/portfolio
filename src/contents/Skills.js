@@ -72,9 +72,9 @@ const Skills = () => {
                 <StyleTechImage theme={theme} src={Mysql} />
                 <StyleTechImage theme={theme} src={Redis} />
                 <StyleTechImage theme={theme} src={Git} />
+                <StyleTechImage theme={theme} src={Aws} />
 
                 <StyleSkillLevel>점점 친해지고 있는 사이</StyleSkillLevel>
-                <StyleTechImage theme={theme} src={Aws} />
                 <StyleTechImage theme={theme} src={Kinesis} />
                 <StyleTechImage theme={theme} src={Dynamodb} />
                 <StyleTechImage theme={theme} src={Kafka} />

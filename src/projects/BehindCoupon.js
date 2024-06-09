@@ -13,9 +13,9 @@ const BehindCoupon = () => {
                         <blockquote>
                             <StyleProjectTitle>2019.03 - 2019.05</StyleProjectTitle>
                             <StyleProjectTitle>비하인드 쿠폰</StyleProjectTitle>
+                            <StyleBadgeGreen>java 8</StyleBadgeGreen>
+                            <StyleBadgeGreen>mysql 5.x</StyleBadgeGreen>
                             <StyleBadgeGreen>spring batch</StyleBadgeGreen>
-                            <StyleBadgeGreen>java</StyleBadgeGreen>
-                            <StyleBadgeGreen>mysql</StyleBadgeGreen>
                             <StyleBadgeGreen>redis</StyleBadgeGreen>
                             <StyleBadgeGreen>hive</StyleBadgeGreen>
                             <StyleBadgeGreen>hadoop</StyleBadgeGreen>
