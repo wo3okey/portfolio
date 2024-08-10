@@ -16,7 +16,7 @@ const Class = () => {
             </StyleContentsLeft>
             <StyleContentsRight>
                 <StyleContent>스파르타 코딩클럽 내일배움캠프 java spring 튜터 </StyleContent>
-                <StyleContent>상위 10% 대상의 챌린지 레벨 수준별 수업 및 특강 진행</StyleContent>
+                <StyleContent>수준별 수업 챌린지 레벨 특강 진행</StyleContent>
             </StyleContentsRight>
         </StyleContentsArea>
     </StyleProject>
